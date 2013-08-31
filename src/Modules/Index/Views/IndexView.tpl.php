@@ -1,21 +1,14 @@
-
-
-Cleopatra by Golden Contact Computing
+JRush by Golden Contact Computing
 -------------------
 
 About:
 -----------------
-This tool helps with setting up boxes. Its intended to get any box in your standard main environments to be
-up and running quickly. It's not meant to be an exhaustive list of installs for everything you'll ever need to
-install (obviously)
+This is the Joomla Command Line shell tool. This tool is for controlling the functions of a Joomla website through the
+command line, so that actions can be performed on the website using scripts. Its very useful in automated deployment
+or continuous delivery systems among others.
 
-Can be used to set up a Development Client, Development Server, Testing Server, or Production Server in minutes
-
-... Staging/UAT is not missing from the list because in "Software my box has installed" terms it should be the
-same as Production.
-
-Furthermore, especially for Production, this is intended to be a quick solution to get you up and running and I
-do not and would never recommend going into Production without checking things for yourself.
+By using the command line to control the website, complex scripts for deployment and management of sites can be
+generated. This can also be used for quickly creating API's into the website's functionality.
 
 -------------------------------------------------------------
 

@@ -4,48 +4,48 @@
     <list default="true" id="1802b147-5560-4734-bd49-532433e9043e" name="Default" comment="" />
     <ignored path="cleopatra.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/AutoLoad.php" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1373359948529" ignored="false" />
+    <file path="/AutoLoad.php" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1377958524169" ignored="false" />
     <file path="$PROJECT_DIR$/../dapperstrano/dapperstrano/src/Core/Base/Model/Base.php" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1373366003433" ignored="false" />
-    <file path="/Base.php" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1373653470978" ignored="false" />
-    <file path="/a.dummy" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1373654154201" ignored="false" />
-    <file path="/Dummy.txt" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1373632598487" ignored="false" />
+    <file path="/Base.php" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1377982106373" ignored="false" />
+    <file path="/a.dummy" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1377983135533" ignored="false" />
+    <file path="/Dummy.txt" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1377860051627" ignored="false" />
     <file path="/CukeConf.php" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1373632110086" ignored="false" />
     <file path="$PROJECT_DIR$/../dapperstrano/dapperstrano/src/Modules/CukeConf/Model/CukeConf.php" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1373632111165" ignored="false" />
-    <file path="/var/www/goodfood-application/tests/functional/GoodFoodPSP_Scripts/features/register.feature" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1373643526670" ignored="false" />
+    <file path="/var/www/goodfood-application/tests/functional/GoodFoodPSP_Scripts/features/register.feature" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1374082520604" ignored="false" />
     <file path="/register.feature" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1373643023127" ignored="false" />
     <file path="/info.PredefinedInstallers.php" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1373375206041" ignored="false" />
-    <file path="$PROJECT_DIR$/../dapperstrano/dapperstrano/src/Modules/Database/Model/DBConfigure.php" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1373366162326" ignored="false" />
+    <file path="$PROJECT_DIR$/../dapperstrano/dapperstrano/src/Modules/Database/Model/DBConfigure.php" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1374925340660" ignored="false" />
     <file path="$PROJECT_DIR$/../dapperstrano/dapperstrano/src/Modules/HostEditor/Model/HostEditor.php" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1373655058544" ignored="false" />
     <file path="$PROJECT_DIR$/../dapperstrano/dapperstrano/src/Modules/Project/Model/Project.php" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1373366302834" ignored="false" />
-    <file path="$PROJECT_DIR$/../dapperstrano/dapperstrano/src/Modules/VHostEditor/Model/VHostEditor.php" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1373366338753" ignored="false" />
+    <file path="$PROJECT_DIR$/../dapperstrano/dapperstrano/src/Modules/VHostEditor/Model/VHostEditor.php" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1374939365722" ignored="false" />
     <file path="/var/www/goodfood-application/docroot/sites/bbcgoodfood.com/inc/local-environment.config.inc" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1373371288553" ignored="false" />
     <file path="/info.ApacheModules.php" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1373376917077" ignored="false" />
-    <file path="/IndexView.tpl.php" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1373540391666" ignored="false" />
-    <file path="/Router.php" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1373463507589" ignored="false" />
+    <file path="/IndexView.tpl.php" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1377964784556" ignored="false" />
+    <file path="/Router.php" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1377971757210" ignored="false" />
     <file path="/info.Index.php" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1373381528541" ignored="false" />
     <file path="/Install.php" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1373381609498" ignored="false" />
-    <file path="$PROJECT_DIR$/../dapperstrano/dapperstrano/README.md" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1373399031633" ignored="false" />
-    <file path="/README.md" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1373399031632" ignored="false" />
+    <file path="$PROJECT_DIR$/../dapperstrano/dapperstrano/README.md" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1374923942221" ignored="false" />
+    <file path="/README.md" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1374668186415" ignored="false" />
     <file path="/info.InstallPackage.php" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1373468013941" ignored="false" />
     <file path="/ApacheModules.php" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1373493297435" ignored="false" />
-    <file path="/var/www/goodfood-application/tests/functional/GoodFoodPSP_Scripts/features/recipe_page.feature" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1373644236103" ignored="false" />
-    <file path="/recipe_page.feature" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1373470054793" ignored="false" />
-    <file path="/var/www/goodfood-application/tests/functional/GoodFoodPSP_Scripts/features/recipe_page_user_recipe.feature" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1373644272938" ignored="false" />
+    <file path="/var/www/goodfood-application/tests/functional/GoodFoodPSP_Scripts/features/recipe_page.feature" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1374136147242" ignored="false" />
+    <file path="/recipe_page.feature" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1374135942600" ignored="false" />
+    <file path="/var/www/goodfood-application/tests/functional/GoodFoodPSP_Scripts/features/recipe_page_user_recipe.feature" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1374082667469" ignored="false" />
     <file path="/recipe_page_user_recipe.feature" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1373644248431" ignored="false" />
     <file path="/var/www/goodfood-application/tests/functional/GoodFoodPSP_Scripts/features/comments.feature" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1373470464959" ignored="false" />
     <file path="/comments.feature" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1373470464959" ignored="false" />
     <file path="/var/www/goodfood-application/tests/functional/GoodFoodPSP_Scripts/features/comments_guides.feature" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1373554784385" ignored="false" />
     <file path="/var/www/goodfood-application/tests/functional/GoodFoodPSP_Scripts/features/comments_techniques.feature" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1373470529882" ignored="false" />
-    <file path="/var/www/goodfood-application/tests/functional/GoodFoodPSP_Scripts/features/login.feature" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1373643687004" ignored="false" />
-    <file path="/login.feature" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1373470863500" ignored="false" />
-    <file path="/var/www/goodfood-application/tests/functional/GoodFoodPSP_Scripts/features/mygoodfood_page.feature" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1373643721785" ignored="false" />
+    <file path="/var/www/goodfood-application/tests/functional/GoodFoodPSP_Scripts/features/login.feature" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1377788146755" ignored="false" />
+    <file path="/login.feature" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1377780811897" ignored="false" />
+    <file path="/var/www/goodfood-application/tests/functional/GoodFoodPSP_Scripts/features/mygoodfood_page.feature" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1377788154110" ignored="false" />
     <file path="/mygoodfood_page.feature" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1373471159150" ignored="false" />
     <file path="/var/www/goodfood-application/tests/functional/GoodFoodPSP_Scripts/features/recipe_hubpage.feature" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1373554784385" ignored="false" />
     <file path="/recipe_hubpage.feature" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1373471824429" ignored="false" />
     <file path="/AppInstallView.tpl.php" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1373484191506" ignored="false" />
-    <file path="/var/www/goodfood-application/tests/functional/GoodFoodPSP_Scripts/cucumber.json" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1373478531588" ignored="false" />
+    <file path="/var/www/goodfood-application/tests/functional/GoodFoodPSP_Scripts/cucumber.json" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1374133431088" ignored="false" />
     <file path="/BasePHPApp.php" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1373535361890" ignored="false" />
-    <file path="/Cleopatra.php" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1373493739437" ignored="false" />
+    <file path="/Cleopatra.php" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1377793707049" ignored="false" />
     <file path="/DevClient.php" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1373532914720" ignored="false" />
     <file path="/InstallDevClientView.tpl.php" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1373489670169" ignored="false" />
     <file path="/InstallPackage.php" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1373540977832" ignored="false" />
@@ -68,9 +68,9 @@
     <file path="/AutopilotView.tpl.php" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1373548740810" ignored="false" />
     <file path="/info.Autopilot.php" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1373548900469" ignored="false" />
     <file path="/var/www/goodfood-application/build/config/devhelper/autopilot-dev-install.php" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1373553470030" ignored="false" />
-    <file path="/var/www/goodfood-application/tests/functional/GoodFoodPSP_Scripts/features/step_definitions/recipe_hubpage.rb" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1373554784385" ignored="false" />
-    <file path="/var/www/goodfood-application/tests/functional/GoodFoodPSP_Scripts/features/step_definitions/mygoodfood_steps.rb" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1373554784385" ignored="false" />
-    <file path="/var/www/goodfood-application/tests/functional/GoodFoodPSP_Scripts/features/step_definitions/common_steps.rb" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1373554784385" ignored="false" />
+    <file path="/var/www/goodfood-application/tests/functional/GoodFoodPSP_Scripts/features/step_definitions/recipe_hubpage.rb" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1377781225321" ignored="false" />
+    <file path="/var/www/goodfood-application/tests/functional/GoodFoodPSP_Scripts/features/step_definitions/mygoodfood_steps.rb" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1377783452233" ignored="false" />
+    <file path="/var/www/goodfood-application/tests/functional/GoodFoodPSP_Scripts/features/step_definitions/common_steps.rb" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1377619537396" ignored="false" />
     <file path="/var/www/imperial-invites/src/configuration.php" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1373561554120" ignored="false" />
     <file path="/var/www/imperial-invites/build/config/dapperstrano/autopilots/autopilot-dev-install.php" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1373561581211" ignored="false" />
     <file path="/AutopilotExecutor.php" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1373620914206" ignored="false" />
@@ -83,15 +83,105 @@
     <file path="/var/www/goodfood-application/hooks/ftest/post-code-deploy/drush-bbcgf-hooks.sh" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1373642384989" ignored="false" />
     <file path="/var/www/goodfood-application/hooks/dev/post-code-deploy/drush-bbcgf-hooks.sh" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1373642374920" ignored="false" />
     <file path="/HostEditor.php" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1373655005557" ignored="false" />
-    <file path="/var/www/goodfood-application/tests/functional/GoodFoodPSP_Scripts/Rakefile" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1373645541278" ignored="false" />
-    <file path="/Rakefile" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1373645539542" ignored="false" />
-    <file path="/var/www/goodfood-application/tests/functional/GoodFoodPSP_Scripts/config/cucumber.yml" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1373645651450" ignored="false" />
+    <file path="/var/www/goodfood-application/tests/functional/GoodFoodPSP_Scripts/Rakefile" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1374136389408" ignored="false" />
+    <file path="/Rakefile" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1374085246874" ignored="false" />
+    <file path="/var/www/goodfood-application/tests/functional/GoodFoodPSP_Scripts/config/cucumber.yml" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1374082555916" ignored="false" />
     <file path="/cucumber.yml" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1373645651450" ignored="false" />
-    <file path="/var/www/goodfood-application/tests/functional/GoodFoodPSP_Scripts/features/support/capybara_env.rb" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1373649573849" ignored="false" />
+    <file path="/var/www/goodfood-application/tests/functional/GoodFoodPSP_Scripts/features/support/capybara_env.rb" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1374082520604" ignored="false" />
     <file path="/View.php" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1373653733434" ignored="false" />
     <file path="$PROJECT_DIR$/../dapperstrano/dapperstrano/src/Core/View.php" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1373654233015" ignored="false" />
     <file path="$PROJECT_DIR$/../dapperstrano/dapperstrano/src/Modules/Autopilot/Controller/AutopilotExecutor.php" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1373654166354" ignored="false" />
     <file path="$PROJECT_DIR$/../dapperstrano/dapperstrano/src/Modules/Autopilot/Views/AutopilotView.tpl.php" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1373654662783" ignored="false" />
+    <file path="/var/www/goodfood-application/tests/functional/GoodFoodPSP_Scripts/features/support/sauce_config.rb" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1374082668323" ignored="false" />
+    <file path="/var/www/goodfood-application/tests/functional/GoodFoodPSP_Scripts/config/envconfig.yml" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1377601826680" ignored="false" />
+    <file path="/var/www/goodfood-application/tests/functional/GoodFoodPSP_Scripts/features/step_definitions/recipe_page_updated.rb" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1377773923446" ignored="false" />
+    <file path="/README" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1374668425583" ignored="false" />
+    <file path="/var/www/bluevip/build/config/dapperstrano/autopilots/auto-dev-jenkins-install.php" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1374920130016" ignored="false" />
+    <file path="/DBConfigure.php" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1374925324928" ignored="false" />
+    <file path="/var/www/bluevip/build/config/dapperstrano/autopilots/auto-prod-revision-invoke.php" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1374941581213" ignored="false" />
+    <file path="/var/www/bluevip/build/config/dapperstrano/autopilots/auto-stage-revision-invoke.php" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1374941555323" ignored="false" />
+    <file path="/var/www/bluevip/build/config/dapperstrano/autopilots/auto-stage-revision-install.php" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1374939827047" ignored="false" />
+    <file path="/var/www/bluevip/build/config/dapperstrano/autopilots/auto-prod-revision-install.php" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1374934906151" ignored="false" />
+    <file path="/var/www/bluevip/build/reports/phpunit/junit/ci-junit.xml" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1374942214881" ignored="false" />
+    <file path="/var/www/bluevip/build/tests/phpunit/xml/report.xml" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1374942214881" ignored="false" />
+    <file path="/var/www/bluevip/build/config/dapperstrano/autopilots/auto-dev-jenkins-uninstall.php" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1374936246480" ignored="false" />
+    <file path="/VHostEditor.php" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1374938694106" ignored="false" />
+    <file path="/var/www/elektric/src/templates/protostar/css/template.css" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1374949172998" ignored="false" />
+    <file path="/template.css" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1374949172276" ignored="false" />
+    <file path="/var/www/elektric/src/components/com_fst/assets/css/fst.css" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1374949138428" ignored="false" />
+    <file path="/fst.css" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1374949137904" ignored="false" />
+    <file path="$PROJECT_DIR$/../parallax/parallax/src/Modules/CommandExec/Model/CommandExec.php" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1375581988680" ignored="false" />
+    <file path="/CommandExec.php" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1375581927111" ignored="false" />
+    <file path="$PROJECT_DIR$/../parallax/parallax/src/Core/Base/Views/BlankLayout.tpl.php" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1375556921768" ignored="false" />
+    <file path="$PROJECT_DIR$/../parallax/parallax/src/Modules/CommandExec/Controller/CommandExec.php" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1375581004074" ignored="false" />
+    <file path="$PROJECT_DIR$/../parallax/parallax/src/Modules/Cli/info.Cli.php" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1375557637950" ignored="false" />
+    <file path="$PROJECT_DIR$/../parallax/parallax/src/Modules/Cli/Controller/Cli.php" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1375579884049" ignored="false" />
+    <file path="/Cli.php" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1375579881940" ignored="false" />
+    <file path="$PROJECT_DIR$/../parallax/parallax/src/Modules/Cli/Model/Cli.php" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1375579940656" ignored="false" />
+    <file path="$PROJECT_DIR$/../parallax/parallax/src/Core/Base/Model/Base.php" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1375582150025" ignored="false" />
+    <file path="/var/www/dave-does-delivery/build/config/cleopatra/autopilots/auto-dev-jenkins-install.php" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1377547872837" ignored="false" />
+    <file path="/auto-dev-jenkins-install.php" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1377547386563" ignored="false" />
+    <file path="/var/www/dave-does-delivery/build/config/dapperstrano/autopilots/auto-dev-install.php" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1377551653891" ignored="false" />
+    <file path="/var/www/dave-does-delivery/build/config/dapperstrano/autopilots/auto-dev-jenkins-install.php" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1377551151389" ignored="false" />
+    <file path="/var/www/dave-does-delivery/build/config/dapperstrano/autopilots/auto-dev-jenkins-uninstall.php" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1377551151389" ignored="false" />
+    <file path="/var/www/dave-does-delivery/build/config/dapperstrano/autopilots/auto-dev-reinstall.php" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1377551151389" ignored="false" />
+    <file path="/var/www/dave-does-delivery/build/config/dapperstrano/autopilots/auto-dev-uninstall.php" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1377551151389" ignored="false" />
+    <file path="/var/www/dave-does-delivery/build/config/dapperstrano/autopilots/auto-prod-revision-install.php" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1377551151389" ignored="false" />
+    <file path="/var/www/dave-does-delivery/build/config/dapperstrano/autopilots/auto-prod-revision-invoke.php" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1377551151389" ignored="false" />
+    <file path="/var/www/dave-does-delivery/build/config/dapperstrano/autopilots/auto-prod-uninstall.php" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1377551151389" ignored="false" />
+    <file path="/var/www/dave-does-delivery/build/config/dapperstrano/autopilots/auto-stage-revision-install.php" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1377874682110" ignored="false" />
+    <file path="/var/www/dave-does-delivery/build/config/dapperstrano/autopilots/auto-stage-revision-invoke.php" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1377551151389" ignored="false" />
+    <file path="/Generator.php" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1377717749049" ignored="false" />
+    <file path="$PROJECT_DIR$/../dapperstrano/dapperstrano/src/Modules/Generator/Model/Generator.php" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1377600220488" ignored="false" />
+    <file path="/var/www/goodfood-application/tests/functional/GoodFoodPSP_Scripts/features/step_definitions/migration_integrity.rb" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1377600918091" ignored="false" />
+    <file path="/migration_integrity.rb" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1377600852710" ignored="false" />
+    <file path="/var/www/goodfood-application/tests/functional/GoodFoodPSP_Scripts/features/step_definitions/recipe_page_cms.rb" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1377601142242" ignored="false" />
+    <file path="/recipe_page_cms.rb" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1377601113316" ignored="false" />
+    <file path="/var/www/goodfood-application/tests/functional/GoodFoodPSP_Scripts/features/recipe_page_cms.feature" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1377612434566" ignored="false" />
+    <file path="/recipe_page_cms.feature" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1377601452019" ignored="false" />
+    <file path="/envconfig.yml" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1377601826680" ignored="false" />
+    <file path="/var/www/goodfood-application/tests/functional/GoodFoodPSP_Scripts/features/step_definitions/mygoodfood_largecollection_steps.rb" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1377620065163" ignored="false" />
+    <file path="/mygoodfood_largecollection_steps.rb" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1377620042372" ignored="false" />
+    <file path="/mygoodfood_largeCollection.feature" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1377620369199" ignored="false" />
+    <file path="/var/www/goodfood-application/tests/functional/GoodFoodPSP_Scripts/features/mygoodfood_largeCollection.feature" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1377620370988" ignored="false" />
+    <file path="/common_steps.rb" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1377613519438" ignored="false" />
+    <file path="/var/www/visa-java/src/dave/visa/DVTRouter.java" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1377816545707" ignored="false" />
+    <file path="/info.Parallax.php" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1377793726911" ignored="false" />
+    <file path="/var/www/visa-java/web/index.jsp" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1377853216743" ignored="false" />
+    <file path="/var/www/visa-java/src/dave/visa/DVTBootstrap.java" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1377853254964" ignored="false" />
+    <file path="/DVTBootstrap.java" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1377822420298" ignored="false" />
+    <file path="/DVTRouter.java" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1377816534496" ignored="false" />
+    <file path="/var/www/visa-java/web/WEB-INF/web.xml" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1377813795456" ignored="false" />
+    <file path="/web.xml" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1377813788392" ignored="false" />
+    <file path="/var/www/visa-java/src/visa/DVTModel.java" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1377816392911" ignored="false" />
+    <file path="/var/www/visa-java/src/visa/DVTViewDataModel.java" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1377816392911" ignored="false" />
+    <file path="/var/www/visa-java/src/visa/DVTView.java" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1377816392911" ignored="false" />
+    <file path="/var/www/visa-java/src/visa/DVTController.java" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1377816392912" ignored="false" />
+    <file path="/var/www/visa-java/src/visa/DVTBootstrap.java" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1377816392912" ignored="false" />
+    <file path="/var/www/visa-java/src/visa/DVTRouter.java" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1377816392912" ignored="false" />
+    <file path="/var/www/visa-java/src/dave/visa/DVTModel.java" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1377816410158" ignored="false" />
+    <file path="/var/www/visa-java/src/dave/visa/DVTViewDataModel.java" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1377816410158" ignored="false" />
+    <file path="/var/www/visa-java/src/dave/visa/DVTView.java" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1377816410158" ignored="false" />
+    <file path="/var/www/visa-java/src/dave/visa/DVTController.java" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1377821887167" ignored="false" />
+    <file path="/DVTController.java" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1377821476061" ignored="false" />
+    <file path="/var/www/dave-does-delivery/db/database.sql" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1377872693757" ignored="false" />
+    <file path="$PROJECT_DIR$/../cleopatra/src/Core/Router.php" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1377959237961" ignored="false" />
+    <file path="/info.JUser.php" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1377963435910" ignored="false" />
+    <file path="/Index.php" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1377965929950" ignored="false" />
+    <file path="$PROJECT_DIR$/../cleopatra/src/Core/Base/Views/DefaultLayout.tpl.php" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1377965324345" ignored="false" />
+    <file path="/DefaultLayout.tpl.php" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1377967554371" ignored="false" />
+    <file path="/JUser.php" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1377973061199" ignored="false" />
+    <file path="/Info.php" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1377975927961" ignored="false" />
+    <file path="/var/www/dave-does-delivery/src/configuration.php" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1377972488686" ignored="false" />
+    <file path="/Password.php" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1377979427447" ignored="false" />
+    <file path="/CoreBase.php" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1377981770646" ignored="false" />
+    <file path="/var/www/dave-does-delivery/src/libraries/joomla/user/user.php" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1377978261917" ignored="false" />
+    <file path="/user.php" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1377977566368" ignored="false" />
+    <file path="/JUserPasswordView.tpl.php" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1377978011866" ignored="false" />
+    <file path="/Delete.php" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1377979519595" ignored="false" />
+    <file path="/JUserDeleteView.tpl.php" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1377980160341" ignored="false" />
+    <file path="/Cache.php" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1377980636941" ignored="false" />
+    <file path="/Version.php" changelist="1802b147-5560-4734-bd49-532433e9043e" time="1377982130053" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,91 +247,91 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AutopilotView.tpl.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Modules/Autopilot/Views/AutopilotView.tpl.php">
+      <file leaf-file-name="Clear.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Modules/Cache/Model/Cache/Clear.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="7" column="37" selection-start="139" selection-end="196" vertical-scroll-proportion="-4.375">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseLinuxApp.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Core/Base/Model/BaseLinuxApp.php">
+      <file leaf-file-name="InstallFeature.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Modules/JFeature/Model/JFeature/InstallFeature.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="152" column="0" selection-start="4180" selection-end="4570" vertical-scroll-proportion="-3.1538463">
+            <state line="13" column="37" selection-start="279" selection-end="349" vertical-scroll-proportion="-8.125">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Base.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Core/Base/Model/Base.php">
+      <file leaf-file-name="PullFeature.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Modules/JFeature/Model/JFeature/PullFeature.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="94" column="23" selection-start="3292" selection-end="3292" vertical-scroll-proportion="3.2115386">
+            <state line="11" column="49" selection-start="243" selection-end="243" vertical-scroll-proportion="-6.875">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AutopilotExecutor.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Modules/Autopilot/Controller/AutopilotExecutor.php">
+      <file leaf-file-name="InstallGroup.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Modules/JFeature/Model/JFeature/InstallGroup.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="54" selection-start="388" selection-end="388" vertical-scroll-proportion="-6.875">
+            <state line="13" column="64" selection-start="315" selection-end="315" vertical-scroll-proportion="-8.125">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Java.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Modules/Java/Model/Java.php">
+      <file leaf-file-name="PullGroup.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Modules/JFeature/Model/JFeature/PullGroup.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="15" selection-start="303" selection-end="303" vertical-scroll-proportion="0.20328543">
+            <state line="12" column="8" selection-start="228" selection-end="228" vertical-scroll-proportion="-7.5">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Dapperstrano.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Modules/Dapperstrano/Model/Dapperstrano.php">
+      <file leaf-file-name="PushFeature.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Modules/JFeature/Model/JFeature/PushFeature.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="33" selection-start="58" selection-end="58" vertical-scroll-proportion="0.0">
+            <state line="11" column="55" selection-start="255" selection-end="255" vertical-scroll-proportion="-6.875">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="info.InstallPackage.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Modules/InstallPackage/info.InstallPackage.php">
+      <file leaf-file-name="PushGroup.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Modules/JFeature/Model/JFeature/PushGroup.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="47" selection-start="1277" selection-end="1277" vertical-scroll-proportion="0.0">
+            <state line="11" column="8" selection-start="204" selection-end="204" vertical-scroll-proportion="-6.875">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="info.Autopilot.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Modules/Autopilot/info.Autopilot.php">
+      <file leaf-file-name="JFeature.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Modules/JFeature/Controller/JFeature.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="26" selection-start="294" selection-end="294" vertical-scroll-proportion="0.0">
+            <state line="44" column="59" selection-start="2256" selection-end="2256" vertical-scroll-proportion="0.7889344">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AutoLoad.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AutoLoad.php">
+      <file leaf-file-name="FolderDefaults.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Modules/JFeature/Model/JFeature/FolderDefaults.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="55" selection-start="2908" selection-end="2936" vertical-scroll-proportion="0.0">
+            <state line="4" column="20" selection-start="54" selection-end="54" vertical-scroll-proportion="-2.5">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Cleopatra.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Modules/Cleopatra/Controller/Cleopatra.php">
+      <file leaf-file-name="info.JFeature.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Modules/JFeature/info.JFeature.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="43" column="74" selection-start="1262" selection-end="1262" vertical-scroll-proportion="-26.875">
               <folding />
             </state>
           </provider>
@@ -257,29 +347,31 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/Modules/InstallPackage/Views/InstallPackageView.tpl.php" />
-        <option value="$PROJECT_DIR$/src/Modules/InstallPackage/Controller/TestServer.php" />
-        <option value="$PROJECT_DIR$/src/Modules/InstallPackage/Controller/BuildServer.php" />
-        <option value="$PROJECT_DIR$/src/Modules/InstallPackage/Controller/InstallPackage.php" />
-        <option value="$PROJECT_DIR$/src/Modules/Autopilot/Views/AutopilotView.tpl.php" />
-        <option value="$PROJECT_DIR$/src/Modules/Autopilot/info.Autopilot.php" />
-        <option value="$PROJECT_DIR$/src/Modules/Index/Views/IndexView.tpl.php" />
-        <option value="$PROJECT_DIR$/src/Modules/Autopilot/Controller/Autopilot.php" />
-        <option value="$PROJECT_DIR$/src/Core/Base/Controller/Base.php" />
-        <option value="$PROJECT_DIR$/src/Modules/InstallPackage/info.InstallPackage.php" />
-        <option value="$PROJECT_DIR$/src/Core/Base/Model/BasePHPApp.php" />
-        <option value="$PROJECT_DIR$/src/Core/Base/Model/Base.php" />
-        <option value="$PROJECT_DIR$/src/Core/View.php" />
-        <option value="$PROJECT_DIR$/src/Modules/Autopilot/Controller/AutopilotExecutor.php" />
-        <option value="$PROJECT_DIR$/src/Core/Base/Model/BaseLinuxApp.php" />
-        <option value="$PROJECT_DIR$/src/Modules/Java/Model/Java.php" />
+        <option value="$PROJECT_DIR$/src/Modules/Version/Model/Version/Current.php" />
+        <option value="$PROJECT_DIR$/src/Modules/Cache/Model/Cache/Clear.php" />
+        <option value="$PROJECT_DIR$/src/Modules/JUser/Model/JUser/Info.php" />
+        <option value="$PROJECT_DIR$/src/Modules/JUser/Model/JUser/Password.php" />
+        <option value="$PROJECT_DIR$/src/Modules/JFeature/Model/JFeature/Base.php" />
+        <option value="$PROJECT_DIR$/src/Modules/JFeature/Controller/Version.php" />
+        <option value="$PROJECT_DIR$/src/Modules/JFeature/Model/JFeature/InstallFeature.php" />
+        <option value="$PROJECT_DIR$/src/Modules/JFeature/Model/JFeature/PullFeature.php" />
+        <option value="$PROJECT_DIR$/src/Modules/JFeature/Model/JFeature/InstallGroup.php" />
+        <option value="$PROJECT_DIR$/src/Modules/JFeature/Model/JFeature/PullGroup.php" />
+        <option value="$PROJECT_DIR$/src/Modules/JFeature/Model/JFeature/PushFeature.php" />
+        <option value="$PROJECT_DIR$/src/Modules/JFeature/Model/JFeature/PushGroup.php" />
+        <option value="$PROJECT_DIR$/src/Modules/JFeature/Model/JFeature/FeatureFolders.php" />
+        <option value="$PROJECT_DIR$/src/Modules/JFeature/info.JFeature.php" />
+        <option value="$PROJECT_DIR$/src/Modules/JFeature/Model/JFeature/FolderDefaults.php" />
+        <option value="$PROJECT_DIR$/src/Modules/JFeature/Controller/JFeature.php" />
       </list>
     </option>
   </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
+    <option name="x" value="-1" />
     <option name="y" value="24" />
-    <option name="width" value="1366" />
-    <option name="height" value="720" />
+    <option name="width" value="1368" />
+    <option name="height" value="721" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -308,41 +400,27 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="cleopatra" />
+              <option name="myItemId" value="jrush2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="cleopatra" />
+              <option name="myItemId" value="jrush2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="cleopatra" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cleopatra" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cleopatra" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="jrush2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -350,25 +428,25 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="/var/www/dave-does-delivery" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/Modules/Autopilot/Controller" />
+      <recent name="$PROJECT_DIR$/src/Modules/JFeature/Views" />
+      <recent name="$PROJECT_DIR$/src/Modules/JFeature/Model" />
+      <recent name="$PROJECT_DIR$/src/Modules/JFeature/Controller" />
       <recent name="$PROJECT_DIR$/src/Modules" />
-      <recent name="$PROJECT_DIR$/src/Modules/InstallPackage/Controller" />
-      <recent name="$PROJECT_DIR$/XSpare" />
-      <recent name="$PROJECT_DIR$/src/Extensions" />
+      <recent name="$PROJECT_DIR$/src/Modules/Version/Views" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Modules/JUser/Model/JUser" />
+      <recent name="$PROJECT_DIR$/src/Modules" />
       <recent name="$PROJECT_DIR$/XSpare" />
+      <recent name="$PROJECT_DIR$/XSpare/Install" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/src/Modules/PHPMD/Model" />
-      <recent name="$PROJECT_DIR$/src/Modules/PHPUnit/Model" />
-      <recent name="$PROJECT_DIR$/src/Modules/PHPCS/Model" />
     </key>
   </component>
   <component name="RunManager">
@@ -444,17 +522,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="24" width="1366" height="720" extended-state="0" />
+    <frame x="-1" y="24" width="1368" height="721" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952815" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952815" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5555556" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329806" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32804233" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -464,12 +543,11 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2283105" sideWeight="0.7155477" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25835866" sideWeight="0.44444445" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2844523" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -534,110 +612,114 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Modules/GitTools/Model/GitTools.php">
+    <entry file="file://$PROJECT_DIR$/src/Modules/Version/Model/Version/Current.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="41" selection-start="406" selection-end="414" vertical-scroll-proportion="0.3515625">
+        <state line="8" column="60" selection-start="204" selection-end="204" vertical-scroll-proportion="-5.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Modules/StandardTools/Model/StandardTools.php">
+    <entry file="file://$PROJECT_DIR$/src/Modules/JUser/Model/JUser/Delete.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="50" selection-start="438" selection-end="456" vertical-scroll-proportion="0.32226562">
+        <state line="13" column="46" selection-start="292" selection-end="301" vertical-scroll-proportion="-8.125">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Modules/PHPModules/Model/PHPModules.php">
+    <entry file="file://$PROJECT_DIR$/src/Modules/JUser/Model/JUser/Info.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="31" selection-start="56" selection-end="56" vertical-scroll-proportion="0.123203285">
+        <state line="13" column="55" selection-start="312" selection-end="312" vertical-scroll-proportion="-8.125">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Core/Base/Model/BasePHPApp.php">
+    <entry file="file://$PROJECT_DIR$/src/Modules/JUser/Model/JUser/Password.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="30" selection-start="114" selection-end="114" vertical-scroll-proportion="-4.375" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Core/Base/Controller/Base.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="33" selection-start="356" selection-end="356" vertical-scroll-proportion="0.0">
+        <state line="14" column="54" selection-start="341" selection-end="341" vertical-scroll-proportion="-8.75">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Modules/Dapperstrano/Model/Dapperstrano.php">
+    <entry file="file://$PROJECT_DIR$/src/Modules/JFeature/Model/JFeature/Base.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="33" selection-start="58" selection-end="58" vertical-scroll-proportion="0.0">
+        <state line="4" column="34" selection-start="68" selection-end="68" vertical-scroll-proportion="-2.5">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Modules/Cleopatra/Controller/Cleopatra.php">
+    <entry file="file://$PROJECT_DIR$/src/Modules/JFeature/Views/JFeatureFeatureInstallView.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Modules/InstallPackage/info.InstallPackage.php">
+    <entry file="file://$PROJECT_DIR$/src/Modules/Cache/Model/Cache/Clear.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="47" selection-start="1277" selection-end="1277" vertical-scroll-proportion="0.0">
+        <state line="7" column="37" selection-start="139" selection-end="196" vertical-scroll-proportion="-4.375">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Modules/Autopilot/info.Autopilot.php">
+    <entry file="file://$PROJECT_DIR$/src/Modules/JFeature/Model/JFeature/InstallFeature.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="26" selection-start="294" selection-end="294" vertical-scroll-proportion="0.0">
+        <state line="13" column="37" selection-start="279" selection-end="349" vertical-scroll-proportion="-8.125">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AutoLoad.php">
+    <entry file="file://$PROJECT_DIR$/src/Modules/JFeature/Model/JFeature/PullFeature.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="55" selection-start="2908" selection-end="2936" vertical-scroll-proportion="0.0">
+        <state line="11" column="49" selection-start="243" selection-end="243" vertical-scroll-proportion="-6.875">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Core/View.php">
+    <entry file="file://$PROJECT_DIR$/src/Modules/JFeature/Model/JFeature/InstallGroup.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="58" selection-start="731" selection-end="731" vertical-scroll-proportion="0.6962025" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Modules/Autopilot/Views/AutopilotView.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="13" column="64" selection-start="315" selection-end="315" vertical-scroll-proportion="-8.125">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Modules/Autopilot/Controller/AutopilotExecutor.php">
+    <entry file="file://$PROJECT_DIR$/src/Modules/JFeature/Model/JFeature/PullGroup.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="54" selection-start="388" selection-end="388" vertical-scroll-proportion="-6.875">
+        <state line="12" column="8" selection-start="228" selection-end="228" vertical-scroll-proportion="-7.5">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Core/Base/Model/Base.php">
+    <entry file="file://$PROJECT_DIR$/src/Modules/JFeature/Model/JFeature/PushFeature.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="23" selection-start="3292" selection-end="3292" vertical-scroll-proportion="3.2115386">
+        <state line="11" column="55" selection-start="255" selection-end="255" vertical-scroll-proportion="-6.875">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Core/Base/Model/BaseLinuxApp.php">
+    <entry file="file://$PROJECT_DIR$/src/Modules/JFeature/Model/JFeature/PushGroup.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="152" column="0" selection-start="4180" selection-end="4570" vertical-scroll-proportion="-3.1538463">
+        <state line="11" column="8" selection-start="204" selection-end="204" vertical-scroll-proportion="-6.875">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Modules/Java/Model/Java.php">
+    <entry file="file://$PROJECT_DIR$/src/Modules/JFeature/info.JFeature.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="15" selection-start="303" selection-end="303" vertical-scroll-proportion="0.20328543">
+        <state line="43" column="74" selection-start="1262" selection-end="1262" vertical-scroll-proportion="-26.875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Modules/JFeature/Model/JFeature/FolderDefaults.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="20" selection-start="54" selection-end="54" vertical-scroll-proportion="-2.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Modules/JFeature/Controller/JFeature.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="59" selection-start="2256" selection-end="2256" vertical-scroll-proportion="0.7889344">
           <folding />
         </state>
       </provider>

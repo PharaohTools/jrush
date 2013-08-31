@@ -60,14 +60,14 @@ class Base {
 
   protected function executeMyRegisteredModelsAutopilot($autoPilot) {
     foreach ($autoPilot->steps as $modelArray) {
-        $currentKeys = array_keys($modelArray) ;
-        $currentKey = $currentKeys[0] ;
-        $fullClassName = '\Model\\'.$currentKey;
-        $currentModel = new $fullClassName();
-        $miniRay = array();
-        $miniRay["appName"] = $currentModel->programNameInstaller;
-        $miniRay["installResult"] = $currentModel->runAutoPilotInstall($modelArray);
-        $this->content["results"][] = $miniRay ; }
+      $currentKeys = array_keys($modelArray) ;
+      $currentKey = $currentKeys[0] ;
+      $fullClassName = '\Model\\'.$currentKey;
+      $currentModel = new $fullClassName();
+      $miniRay = array();
+      $miniRay["appName"] = $currentModel->programNameInstaller;
+      $miniRay["installResult"] = $currentModel->runAutoPilotInstall($modelArray);
+      $this->content["results"][] = $miniRay ; }
   }
 
 }

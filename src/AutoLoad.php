@@ -23,7 +23,6 @@ class AutoLoader{
           foreach ($modulesIndividualDirectories as $singleModuleDir) {
             if (!in_array($singleModuleDir, array(".", ".."))) { // if not dot or double dot
               if ( is_dir($currentModulesParentDir.DIRECTORY_SEPARATOR.$singleModuleDir)) { // if is a dir
-                $classNameForLoad = str_replace('\\' , DIRECTORY_SEPARATOR, $className);
                 $filename =
                   $currentModulesParentDir . DIRECTORY_SEPARATOR . $singleModuleDir .
                   DIRECTORY_SEPARATOR . $classNameForLoad.'.php';

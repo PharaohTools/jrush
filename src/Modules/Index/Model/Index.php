@@ -2,7 +2,7 @@
 
 Namespace Model;
 
-class Index extends Base {
+class Index extends CoreBase {
 
   public function findAllModuleNames(){
     $allInfoObjects = \Core\AutoLoader::getInfoObjects() ;

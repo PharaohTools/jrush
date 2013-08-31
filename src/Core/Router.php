@@ -7,12 +7,6 @@ class Router {
     private	$argv;
     private	$route;
     private $availableRoutes = array() ;
-    /*
-      private $availableRoutes = array(
-          "index" => array("index") ,
-          "install" => array("dev-client", "dev-server", "git-server",
-            "test-server", "production", "cherry-pick", "autopilot") );
-    */
 
     public function run($argv) {
       $this->argv = $argv;
@@ -71,6 +65,7 @@ class Router {
     }
 
     private function setRouteExtraParams() {
+        $this->route["extraParams"] = array();
         $numberOfExtraParams = count($this->argv)-3;
         for ($i=3; $i<($numberOfExtraParams+3); $i++) {
             $this->route["extraParams"][] = $this->argv[$i] ;}
