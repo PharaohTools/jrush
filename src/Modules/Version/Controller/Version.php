@@ -14,11 +14,13 @@ class Version extends Base {
       if ($action=="current") {
         $jFeatureModel = new \Model\Version\Current($extraParams);
         $this->content["jVersionResult"] = $jFeatureModel->askWhetherToGetJoomlaVersion();
+        $this->content["output-format"] = $jFeatureModel->outputFormat;
         return array ("type"=>"view", "view"=>"VersionJoomla", "pageVars"=>$this->content); }
 
       if ($action=="available") {
         $jFeatureModel = new \Model\Version\Available($extraParams);
         $this->content["jVersionResult"] = $jFeatureModel->askWhetherToListJoomlaVersions();
+        $this->content["output-format"] = $jFeatureModel->outputFormat;
         return array ("type"=>"view", "view"=>"VersionJoomla", "pageVars"=>$this->content); }
 
       else {

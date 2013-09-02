@@ -14,11 +14,13 @@ class Cache extends Base {
       if ($action=="site-clear") {
         $cacheClearModel = new \Model\Cache\Clear($extraParams);
         $this->content["SiteCacheClearResult"] = $cacheClearModel->askWhetherToClearSiteCache();
+        $this->content["output-format"] = $cacheClearModel->outputFormat;
         return array ("type"=>"view", "view"=>"CacheClear", "pageVars"=>$this->content); }
 
       if ($action=="admin-clear") {
         $cacheClearModel = new \Model\Cache\Clear($extraParams);
         $this->content["AdminCacheClearResult"] = $cacheClearModel->askWhetherToClearAdminCache();
+        $this->content["output-format"] = $cacheClearModel->outputFormat;
         return array ("type"=>"view", "view"=>"CacheClear", "pageVars"=>$this->content); }
 
       else {
