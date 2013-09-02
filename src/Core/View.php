@@ -5,7 +5,10 @@ Namespace Core;
 class View {
 
   public function executeView($view, Array $viewVars) {
-    $viewVars["layout"] = (isset($viewVars["layout"])) ? $viewVars["layout"] : "default" ;
+    if (isset($viewVars["output-format"]) && $viewVars["output-format"] != "cli") {
+      $viewVars["layout"] = "blank" ; }
+    else {
+      $viewVars["layout"] = (isset($viewVars["layout"])) ? $viewVars["layout"] : "default" ; }
     $templateData = $this->loadTemplate ($view, $viewVars) ;
     $data = $this->loadLayout ( $viewVars["layout"], $templateData, $viewVars) ;
     $this->renderAll($data) ;
@@ -17,16 +20,19 @@ class View {
     if ($this->loadViewFile($viewFileName, $pageVars, $templateData) == true) {
       return ob_get_clean(); }
     else {
-      die ("View Layout Not Found"); }
+      die ("View Layout Not Found\n"); }
   }
 
   private function loadTemplate ($view, Array $pageVars) {
     ob_start();
-    $viewFileName = ucfirst($view)."View.tpl.php";
+    $outputFormat = "CLI";
+    if (isset($pageVars["output-format"])) {
+      $outputFormat = strtoupper($pageVars["output-format"]); }
+    $viewFileName = ucfirst($view).$outputFormat."View.tpl.php";
     if ($this->loadViewFile($viewFileName, $pageVars) == true) {
       return ob_get_clean(); }
     else {
-      die ("View Template Not Found"); }
+      die ("View Template $viewFileName for $outputFormat Not Found\n"); }
   }
 
   private function renderAll($processedData) {

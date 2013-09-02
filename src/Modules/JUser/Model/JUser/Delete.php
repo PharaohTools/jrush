@@ -44,11 +44,11 @@ class Delete extends Base {
         return $userCopy;
     }
 
-  private function deleteUserBypassingJFramework($userId) {
-    $db = \JFactory::getDBO();
-    $query = 'DELETE FROM #__users WHERE id="'.$userId.'" LIMIT 1';
-    $db->setQuery($query);
-    $db->query();
-  }
+    private function deleteUserBypassingJFramework($userId) {
+      $db = \JFactory::getDBO();
+      $query = 'DELETE FROM #__users WHERE id="'.$userId.'" LIMIT 1';
+      $db->setQuery($query);
+      $db->query();
+    }
 
 }

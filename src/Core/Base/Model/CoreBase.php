@@ -4,7 +4,8 @@ Namespace Model;
 
 class CoreBase {
 
-    protected static $joomlaConfigFile ;
+    protected $joomlaConfigFile ;
+    public $outputFormat ;
 
     public function __construct($params=null) {
         $this->setCmdLineParams($params);
@@ -22,7 +23,7 @@ class CoreBase {
           $jConfig = $this->loadJConfig();
           if ($jConfig==false) { echo "Can't create jconfig. Is path to configuration.php correct?\n" ;  }
           /* if (!is_object($jConfig)) { die("Can't create jconfig. Is path to configuration.php correct?\n");  } */
-          $jRoot = dirname(self::$joomlaConfigFile) ;
+          $jRoot = dirname($this->joomlaConfigFile) ;
           if (!defined('_JEXEC')) { define( '_JEXEC', 1 ); }
           if (!defined('JPATH_BASE')) { define('JPATH_BASE', $jRoot ); }
           $joomla30LoaderExists = file_exists(JPATH_BASE .'/libraries/import.php');
@@ -142,7 +143,7 @@ class CoreBase {
         return $jConfig;
       */
       if (file_exists($defaultName)) { return true; }
-      else if (file_exists(self::$joomlaConfigFile)) { return true; }
+      else if (file_exists($this->joomlaConfigFile)) { return true; }
       return false;
     }
 
@@ -169,7 +170,9 @@ class CoreBase {
         if (is_array($params) && count($params)>0) {
           foreach ($params as $param) {
             if ( substr($param, 0, 13)=="--config-file"){
-              self::$joomlaConfigFile = substr($param, 14, strlen($param)-1); } } }
+              $this->joomlaConfigFile = substr($param, 14, strlen($param)-1); }
+            if ( substr($param, 0, 15)=="--output-format"){
+              $this->outputFormat = substr($param, 16, strlen($param)-1); } } }
     }
 
 }

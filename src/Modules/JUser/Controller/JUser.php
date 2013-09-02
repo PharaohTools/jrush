@@ -14,16 +14,19 @@ class JUser extends Base {
       if ($action=="delete") {
         $jUserModel = new \Model\JUser\Delete($extraParams);
         $this->content["jUserInfoResult"] = $jUserModel->askWhetherToDeleteUser();
+        $this->content["output-format"] = $jUserModel->outputFormat;
         return array ("type"=>"view", "view"=>"jUserDelete", "pageVars"=>$this->content); }
 
       if ($action=="info") {
         $jUserModel = new \Model\JUser\Info($extraParams);
         $this->content["jUserInfoResult"] = $jUserModel->askWhetherToGetUserInfo();
+        $this->content["output-format"] = $jUserModel->outputFormat;
         return array ("type"=>"view", "view"=>"jUserInfo", "pageVars"=>$this->content); }
 
       if ($action=="password") {
         $jUserModel = new \Model\JUser\Password($extraParams);
         $this->content["jUserInfoResult"] = $jUserModel->askWhetherToUpdateUserPassword();
+        $this->content["output-format"] = $jUserModel->outputFormat;
         return array ("type"=>"view", "view"=>"jUserPassword", "pageVars"=>$this->content); }
 
       else {
