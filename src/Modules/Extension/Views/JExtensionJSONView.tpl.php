@@ -1,10 +1,10 @@
 <?php
 
 $jsonArray = array (
-  "id" => $pageVars["jExtensionInfoResult"]->id,
+  "extension_id" => $pageVars["jExtensionInfoResult"]->extension_id,
   "name" => $pageVars["jExtensionInfoResult"]->name,
-  "componentname" => $pageVars["jExtensionInfoResult"]->componentname,
-  "email" => $pageVars["jExtensionInfoResult"]->email
+  "element" => $pageVars["jExtensionInfoResult"]->element,
+  "enabled" => $pageVars["jExtensionInfoResult"]->enabled
 );
 
 echo json_encode($jsonArray)."\n";
