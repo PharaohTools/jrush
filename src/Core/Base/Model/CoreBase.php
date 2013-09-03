@@ -8,7 +8,7 @@ class CoreBase {
     public $outputFormat ;
 
     public function __construct($params=null) {
-        $this->setCmdLineParams($params);
+        $this->setBaseCmdLineParams($params);
     }
 
     protected function attemptBootstrap($params, $caller){
@@ -166,7 +166,7 @@ class CoreBase {
         return false;
     }
 
-    private function setCmdLineParams($params) {
+    private function setBaseCmdLineParams($params) {
         if (is_array($params) && count($params)>0) {
           foreach ($params as $param) {
             if ( substr($param, 0, 13)=="--config-file"){

@@ -25,7 +25,7 @@ class View {
 
   private function loadTemplate ($view, Array $pageVars) {
     ob_start();
-    $outputFormat = "CLI";
+    $outputFormat = "CLI" ;
     if (isset($pageVars["output-format"])) {
       $outputFormat = strtoupper($pageVars["output-format"]); }
     $viewFileName = ucfirst($view).$outputFormat."View.tpl.php";

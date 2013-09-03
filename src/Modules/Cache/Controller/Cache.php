@@ -23,11 +23,8 @@ class Cache extends Base {
         $this->content["output-format"] = $cacheClearModel->outputFormat;
         return array ("type"=>"view", "view"=>"CacheClear", "pageVars"=>$this->content); }
 
-      else {
-            $this->content["genErrors"]="No Action"; }
-
       $this->content["messages"][] = "Invalid Action";
-      return array ("type"=>"view", "view"=>"index", "pageVars"=>$this->content);
+      return array ("type"=>"control", "control"=>"index", "pageVars"=>$this->content);
 
     }
     
