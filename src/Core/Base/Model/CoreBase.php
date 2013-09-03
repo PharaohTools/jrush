@@ -132,16 +132,7 @@ class CoreBase {
 
     private function loadJConfig(){
         $defaultFolderToCheck = getcwd();
-        $defaultName = $defaultFolderToCheck.'/configuration.php';
-      /*
-       *
-        if (file_exists($defaultName)) {
-            require_once($defaultName); }
-        else if (file_exists(self::$joomlaConfigFile)) {
-            require_once(self::$joomlaConfigFile); }
-        $jConfig = (class_exists('jConfig')) ? new \jConfig() : null ;
-        return $jConfig;
-      */
+        $defaultName = $defaultFolderToCheck.DIRECTORY_SEPARATOR.'configuration.php';
       if (file_exists($defaultName)) { return true; }
       else if (file_exists($this->joomlaConfigFile)) { return true; }
       return false;
