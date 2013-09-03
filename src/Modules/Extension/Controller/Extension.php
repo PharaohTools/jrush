@@ -17,7 +17,7 @@ class Extension extends Base {
         $this->content["output-format"] = $jExtensionModel->outputFormat;
         return array ("type"=>"view", "view"=>"jExtension", "pageVars"=>$this->content); }
 
-      if ($action=="eable") {
+      if ($action=="enable") {
         $jExtensionModel = new \Model\Extension\Enable($extraParams);
         $this->content["jExtensionInfoResult"] = $jExtensionModel->askWhetherToEnableExtension();
         $this->content["output-format"] = $jExtensionModel->outputFormat;
