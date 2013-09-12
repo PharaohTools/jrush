@@ -39,7 +39,7 @@ class JArticle extends Base {
         $jJArticleModel = new \Model\JArticle\Info($extraParams);
         $this->content["jJArticleInfoResult"] = $jJArticleModel->askWhetherToGetJArticleInfo();
         $this->content["output-format"] = $jJArticleModel->outputFormat;
-        return array ("type"=>"view", "view"=>"jArticle", "pageVars"=>$this->content); }
+        return array ("type"=>"view", "view"=>"jArticleInfo", "pageVars"=>$this->content); }
 
       $this->content["messages"][] = "Invalid Action";
       return array ("type"=>"control", "control"=>"index", "pageVars"=>$this->content);

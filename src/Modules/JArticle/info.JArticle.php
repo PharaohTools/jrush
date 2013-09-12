@@ -28,7 +28,8 @@ class JArticleInfo extends Base {
 
     public function dependencies() {
       // return array("dependency"=>"Module");
-      return array();
+      // return array();
+      return array("JFeature"=>"JArticle");
     }
 
     public function autoPilotVariables() {
