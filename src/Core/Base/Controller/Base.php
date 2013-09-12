@@ -6,9 +6,12 @@ class Base {
 
   public $content;
   protected $registeredModels = array();
+  protected $dependencies = array();
 
   public function __construct() {
-    $this->content = array(); }
+    $this->content = array();
+    $this->loadDependencies();
+    $this->checkDependencies(); }
 
   public function checkForHelp($pageVars) {
     $this->content["route"] = $pageVars["route"];
@@ -19,6 +22,20 @@ class Base {
       $this->content["helpData"] = $helpModel->getHelpData($pageVars["route"]["control"]);
       return array ("type"=>"view", "view"=>"help", "pageVars"=>$this->content); }
     return false;
+  }
+
+  protected function loadDependencies() {
+    $moduleName = substr(get_class($this), 11) ;
+    $this->dependencies = \Core\AutoLoader::getDependencies($moduleName);
+  }
+
+  protected function checkDependencies() {
+    foreach ($this->dependencies as $moduleName) {
+      $fullClassName = '\Info\\'.$moduleName.'Info';
+      if ( !class_exists($fullClassName) ) {
+        $thisModuleName = substr(get_class($this), 11) ;
+        echo "Module ".$thisModuleName." Expects Module ".$moduleName." as a dependency. \n";
+        die() ; } }
   }
 
   protected function checkForRegisteredModels() {

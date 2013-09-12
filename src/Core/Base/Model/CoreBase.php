@@ -91,19 +91,25 @@ class CoreBase {
             else {
               echo "You must enter a single digit. Please try again\n";
               continue; }
-        $i++; }
+          $i++;
+          if ($i >9) {
+            die ("You didn't enter a value over 10 times... Exiting..."); } }
         return $inputChar;
     }
 
     protected function askForInput($question, $required=null) {
         $fp = fopen('php://stdin', 'r');
         $last_line = false;
+        $i = 0 ;
         while (!$last_line) {
             print "$question\n";
             $inputLine = fgets($fp, 1024);
             if ($required && strlen($inputLine)==0 ) {
                 print "You must enter a value. Please try again.\n"; }
-            else {$last_line = true;} }
+            else {$last_line = true;}
+          $i++;
+          if ($i >9) {
+            die ("You didn't enter a value over 10 times... Exiting..."); } }
         $inputLine = $this->stripNewLines($inputLine);
         return $inputLine;
     }
@@ -111,15 +117,21 @@ class CoreBase {
     protected function askForArrayOption($question, $options, $required=null) {
         $fp = fopen('php://stdin', 'r');
         $last_line = false;
+        $ix = 0 ;
         while ($last_line == false) {
             print "$question\n";
             for ( $i=0 ; $i<count($options) ; $i++) { print "($i) $options[$i] \n"; }
             $inputLine = fgets($fp, 1024);
             if ($required && strlen($inputLine)==0 ) {
+                $ix++;
                 print "You must enter a value. Please try again.\n"; }
             elseif ( is_int($inputLine) && ($inputLine>=0) && ($inputLine<=count($options) ) ) {
+                $ix++;
                 print "Enter one of the given options. Please try again.\n"; }
-            else {$last_line = true; } }
+            else {
+              $last_line = true;
+              if ($ix >9) {
+                die ("You didn't enter a value over 10 times... Exiting..."); } } }
         $inputLine = $this->stripNewLines($inputLine);
         return $options[$inputLine];
     }
@@ -131,10 +143,10 @@ class CoreBase {
     }
 
     private function loadJConfig(){
-        $defaultFolderToCheck = getcwd();
-        $defaultName = $defaultFolderToCheck.DIRECTORY_SEPARATOR.'configuration.php';
-      if (file_exists($defaultName)) { return true; }
-      else if (file_exists($this->joomlaConfigFile)) { return true; }
+      $defaultFolderToCheck = getcwd();
+      $defaultName = $defaultFolderToCheck.DIRECTORY_SEPARATOR.'configuration.php';
+      if (file_exists($this->joomlaConfigFile)) { return true; }
+      else if (file_exists($defaultName)) { return true; }
       return false;
     }
 
