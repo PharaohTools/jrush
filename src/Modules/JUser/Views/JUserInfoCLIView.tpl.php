@@ -9,8 +9,6 @@ User Name: <?php echo $pageVars["jUserInfoResult"]->username ; ?>
 
 Email: <?php echo $pageVars["jUserInfoResult"]->email ; ?>
 
-UserType: <?php echo $pageVars["jUserInfoResult"]->usertype ; ?>
-
 
 ------------------------------
 JUser Info Finished

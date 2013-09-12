@@ -1,7 +1,11 @@
-JArticle:
+JArticle Information:
 -------------------------
-
-The following jarticle was modified:
+<?php
+$disp = "";
+if (is_array($pageVars["messages"]) && count($pageVars["messages"]) > 0) { $disp .= 'Messages: '; }
+foreach ($pageVars["messages"] as $message) { $disp .= $message."\n"; }
+echo $disp ;
+?>
 
 Article ID: <?php echo $pageVars["jJArticleInfoResult"]->id ; ?>
 

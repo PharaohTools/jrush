@@ -3,7 +3,10 @@
 Namespace Core;
 
 $bootStrap = new BootStrap();
-$bootStrap->main($argv);
+
+$argv_or_null = (isset($argv)) ? $argv : null ;
+$bootStrapParams = (isset($_ENV['jrush_bootstrap'])) ? unserialize($_ENV['jrush_bootstrap']) : $argv_or_null ;
+$bootStrap->main($bootStrapParams);
 
 class BootStrap {
 
@@ -13,9 +16,9 @@ class BootStrap {
         $autoLoader->launch();
     }
 
-    public function main($argv) {
+    public function main($argv_or_null) {
         $routeObject = new \Core\Router();
-        $route = $routeObject->run($argv);
+        $route = $routeObject->run($argv_or_null);
         $emptyPageVars = array("messages"=>array(), "route"=>$route);
         $this->executeControl($route["control"], $emptyPageVars);
     }

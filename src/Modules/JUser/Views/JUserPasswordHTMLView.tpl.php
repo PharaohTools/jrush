@@ -9,7 +9,7 @@
 <body>
 
   <h3>
-    JUser Info:  <br />
+    JUser Password:  <br />
     --------------------------------------------
   </h3>
 
@@ -20,7 +20,7 @@
 
   <h3>
     ------------------------------<br />
-    JUser Info Finished
+    JUser Password Finished
   </h3>
 
 </body>

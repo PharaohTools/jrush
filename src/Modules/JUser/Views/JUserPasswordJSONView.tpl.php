@@ -10,7 +10,6 @@ $jsonArray = array (
   "name" => $pageVars["jUserInfoResult"]->name,
   "username" => $pageVars["jUserInfoResult"]->username,
   "email" => $pageVars["jUserInfoResult"]->email,
-  "usertype" => $pageVars["jUserInfoResult"]->usertype,
   "password" => $userPass
 );
 

@@ -9,7 +9,7 @@
 <body>
 
   <h3>
-    JUser Info:  <br />
+    JUser Delete:  <br />
     --------------------------------------------
   </h3>
 
@@ -20,7 +20,7 @@
 
   <h3>
     ------------------------------<br />
-    JUser Info Finished
+    JUser Delete Finished
   </h3>
 
 </body>

@@ -49,6 +49,18 @@ class AutoLoader{
       return $allInfoObjects;
     }
 
+    public static function getDependencies($depender) {
+      $allInfoObjects = self::getInfoObjects();
+      $dependencies = array();
+      foreach ($allInfoObjects as $oneInfoObject) {
+        if (method_exists($oneInfoObject, "dependencies")) {
+          $currentInfoObjectAllDeps = $oneInfoObject->dependencies();
+          foreach ($currentInfoObjectAllDeps as $currentInfoObjectOneDepKey => $currentInfoObjectOneDepValue) {
+            if ($currentInfoObjectOneDepValue == $depender) {
+              $dependencies[] = $currentInfoObjectOneDepKey ; } } } }
+      return $dependencies;
+    }
+
     public static function getSingleInfoObject($module) {
       $allModuleParentDirectories = array("Extensions", "Modules", "Core");
       foreach ($allModuleParentDirectories as $oneModuleParentDirectory) {

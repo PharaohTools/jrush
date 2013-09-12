@@ -1,16 +1,28 @@
-JUser Info:
--------------------------
+<html>
 
-User ID: <?php echo $pageVars["jUserInfoResult"]->id ; ?>
+<head>
+  <title>
+    GC JRush
+  </title>
+</head>
 
-Name: <?php echo $pageVars["jUserInfoResult"]->name ; ?>
+<body>
 
-User Name: <?php echo $pageVars["jUserInfoResult"]->username ; ?>
+  <h3>
+    JUser Info:  <br />
+    --------------------------------------------
+  </h3>
 
-Email: <?php echo $pageVars["jUserInfoResult"]->email ; ?>
+  <p>User ID: <?php echo $pageVars["jUserInfoResult"]->id ; ?></p>
+  <p>Name: <?php echo $pageVars["jUserInfoResult"]->name ; ?></p>
+  <p>User Name: <?php echo $pageVars["jUserInfoResult"]->username ; ?></p>
+  <p>Email: <?php echo $pageVars["jUserInfoResult"]->email ; ?></p>
 
-UserType: <?php echo $pageVars["jUserInfoResult"]->usertype ; ?>
+  <h3>
+    ------------------------------<br />
+    JUser Info Finished
+  </h3>
 
+</body>
 
-------------------------------
-JUser Info Finished
+</html>
