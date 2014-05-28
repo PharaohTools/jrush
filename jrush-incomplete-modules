@@ -1,0 +1,3 @@
+juser password cli doesnt work when interactively adding a password.
+--config-file and --username were params, and password was at cli, it failed
+it worked with --password param
