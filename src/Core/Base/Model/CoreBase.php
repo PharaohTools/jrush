@@ -13,24 +13,24 @@ class CoreBase {
 
     protected function attemptBootstrap($params, $caller){
       $this->bootStrapJoomla($params);
-      if (!defined( '_JEXEC' )) {
-        echo "$caller requires JRush to bootstrap.\n" ; }
+      if (!defined( '_JEXEC' )) { echo "$caller requires JRush to bootstrap.\n" ; }
     }
 
     protected function bootStrapJoomla($params) {
-        if ($params==null) { echo "No params for Joomla when bootstrapping. Is --config-file param correct?\n"; }
+        if ($this->joomlaConfigFile==null) {
+            echo "No params for Joomla config found when bootstrapping. Is --config-file param correct?\n"; }
         else {
           $jConfig = $this->loadJConfig();
           if ($jConfig==false) { echo "Can't create jconfig. Is path to configuration.php correct?\n" ;  }
-          /* if (!is_object($jConfig)) { die("Can't create jconfig. Is path to configuration.php correct?\n");  } */
           $jRoot = dirname($this->joomlaConfigFile) ;
           if (!defined('_JEXEC')) { define( '_JEXEC', 1 ); }
           if (!defined('JPATH_BASE')) { define('JPATH_BASE', $jRoot ); }
-          $joomla30LoaderExists = file_exists(JPATH_BASE .'/libraries/import.php');
+          $joomla30LoaderExists = file_exists(JPATH_BASE.DIRECTORY_SEPARATOR.'libraries'.
+              DIRECTORY_SEPARATOR.'import.php');
           if (!$joomla30LoaderExists) { require_once ('Loader.php'); }
           if ($joomla30LoaderExists) { require_once (JPATH_BASE .'/libraries/import.php'); }
-          require_once ( JPATH_BASE .'/includes/defines.php' );
-          require_once ( JPATH_BASE .'/includes/framework.php' );
+          require_once ( JPATH_BASE .DIRECTORY_SEPARATOR.'includes'.DIRECTORY_SEPARATOR.'defines.php' );
+          require_once ( JPATH_BASE .DIRECTORY_SEPARATOR.'includes'.DIRECTORY_SEPARATOR.'framework.php' );
           if(!defined('DS')) { define('DS',DIRECTORY_SEPARATOR); }
           $mainframe = \JFactory::getApplication('site');
           $mainframe->initialise(); }
