@@ -6,9 +6,7 @@ class Available extends Base {
 
     public function __construct($params) {
       parent::__construct($params);
-      $this->attemptBootstrap($params);
-      if (!defined( '_JEXEC' ) ) {
-        echo( "Version Available requires Jrush to bootstrap.\n" ); }
+      // $this->attemptBootstrap($params, "Version Available");
     }
 
     public function askWhetherToListJoomlaVersions() {
