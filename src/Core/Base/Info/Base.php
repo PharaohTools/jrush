@@ -16,14 +16,22 @@ class Base {
     }
 
     public function routeAliases() {
-      return array();
+        return array();
+    }
+
+    public function dependencies() {
+        return array();
+    }
+
+    public function groups() {
+        return array();
     }
 
     public function helpDefinition() {
-      $help = <<<"HELPDATA"
+        $help = <<<"HELPDATA"
   There is no help defined for this module
 HELPDATA;
-      return $help ;
+        return $help ;
     }
 
 }
