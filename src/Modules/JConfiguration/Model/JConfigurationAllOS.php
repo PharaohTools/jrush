@@ -51,9 +51,6 @@ class JConfigurationAllOS extends Base {
 
     protected function setConfigOptions() {
         foreach ($this->platformVars->configOptions as $configOptionKey => $configOptionValue)  {
-
-            var_dump($this->params["config_{$configOptionKey}"], is_string($this->params["config_{$configOptionKey}"]), strlen($this->params["config_{$configOptionKey}"])>0) ;
-
             if (isset($this->params["config_{$configOptionKey}"]) && is_string($this->params["config_{$configOptionKey}"])
                 && strlen($this->params["config_{$configOptionKey}"])>0) {
                 $this->configOptions[$configOptionKey] = $this->params["config_{$configOptionKey}"] ;
