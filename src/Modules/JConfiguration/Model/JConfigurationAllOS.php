@@ -100,7 +100,7 @@ class JConfigurationAllOS extends Base {
         if ( !($pos === false) ) {
             $spaces = "" ;
             for ($i = 0; $i < 8; $i++) { $spaces .= " " ; }
-            $lineInNewfile = $spaces.$var.' = '.'\''.$configOptionValue.'\''."\n" ; }
+            $lineInNewfile = $spaces.$var.' = '.'\''.$configOptionValue.'\''."; \n" ; }
         return $lineInNewfile ;
     }
 
