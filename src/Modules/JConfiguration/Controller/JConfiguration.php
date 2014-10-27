@@ -17,15 +17,6 @@ class JConfiguration extends Base {
         if ($action=="configure" || $action== "config" || $action== "conf") {
             $this->content["result"] = $thisModel->askWhetherToConfigureDB();
             return array ("type"=>"view", "view"=>"jConfiguration", "pageVars"=>$this->content); }
-        else if ($action=="reset") {
-            $this->content["result"] = $thisModel->askWhetherToResetDBConfiguration();
-            return array ("type"=>"view", "view"=>"jConfiguration", "pageVars"=>$this->content); }
-        else if ($action=="default-log-dir") {
-            $this->content["result"] = $thisModel->askWhetherToResetDBConfiguration();
-            return array ("type"=>"view", "view"=>"jConfiguration", "pageVars"=>$this->content); }
-        else if ($action=="reset") {
-            $this->content["result"] = $thisModel->askWhetherToResetDBConfiguration();
-            return array ("type"=>"view", "view"=>"jConfiguration", "pageVars"=>$this->content); }
 
         $this->content["messages"][] = "Invalid DB Configure Action";
         return array ("type"=>"control", "control"=>"index", "pageVars"=>$this->content);
