@@ -20,16 +20,15 @@ Adding standard Joomla Commands involving these classes will be easy.
 Installation
 -----------------
 
-To install jrush cli on your machine do the following. If you already have php5 and git installed skip line 1:
+The preferred method of installation for any of the Pharaoh Tools is through Cleopatra. You'll find full Pharaoh Tools
+installation instructions here:
 
-sudo apt-get install php5 git
+http://www.pharaohtools.com/the-pharaohs/install
+
+
+Or, if you are using Linux, Unix or Mac, first install PHP 5.3 or above and git, then do this...
 
 git clone https://github.com/phpengine/jrush && sudo php jrush/install-silent
-
-or...
-
-git clone https://github.com/phpengine/jrush && sudo php jrush/install
-(if you want to choose the install location)
 
 ... that's it, now the jrush command should be available at the command line for you.
 
@@ -95,7 +94,7 @@ jfeature      - feature-install
                 example jrush jfeature group-pull --pull-id="XX" --config-file="/var/www/website/configuration.php"
 
 version       - joomla
-                Report the info about the Major and Minor Version number of Joomla.
+                Report info about the Major and Minor Version number of Joomla.
                 example jrush version joomla --config-file="/var/www/website/configuration.php"
 
               - available
