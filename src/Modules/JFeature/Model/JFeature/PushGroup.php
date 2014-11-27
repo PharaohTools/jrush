@@ -17,7 +17,7 @@ class PushGroup extends Base {
         $this->configs = new \GCWorkflowDeployerConfigClass();
         $this->model = new \GCWorkflowDeployerModelClass();
         $this->uploadDir = $this->configs->give("temp_push_folder");
-        if (substr($this->uploadDir, "-1", "1") != "/") { $this->uploadDir .= DS; }
+        if (substr($this->uploadDir, "-1", "1") != DS) { $this->uploadDir .= DS; }
     }
 
     public function askWhetherToPushGroup() {
