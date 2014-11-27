@@ -68,8 +68,9 @@ class JFeatureInfo extends Base {
         - group-pull
           perform a pull on all installed features in the specified group so they are integrated into the site, db and
           file changes executed.
-          example jrush jfeature group-pull --pull-unique-time="XXX_XXX" --config-file="/var/www/website/configuration.php"
-          example jrush jfeature group-pull --pull-id="XX" --config-file="/var/www/website/configuration.php"
+          example jrush jfeature group-pull --group-id="XX" --config-file="/var/www/website/configuration.php"
+          example jrush jfeature group-pull --group-name="my group" --config-file="/var/www/website/configuration.php"
+          example jrush jfeature group-pull --group-unique="XX1234" --config-file="/var/www/website/configuration.php"
 
 HELPDATA;
       return $help ;
