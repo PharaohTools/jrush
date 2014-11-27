@@ -25,13 +25,11 @@ installation instructions here:
 
 http://www.pharaohtools.com/the-pharaohs/install
 
-
 Or, if you are using Linux, Unix or Mac, first install PHP 5.3 or above and git, then do this...
 
 git clone https://github.com/PharaohTools/jrush.git && sudo php jrush/install-silent
 
 ... that's it, now the jrush command should be available at the command line for you.
-
 
 
 
