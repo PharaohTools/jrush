@@ -146,8 +146,7 @@ class CoreBase {
     private function loadJConfig(){
       $defaultFolderToCheck = getcwd();
       $defaultName = $defaultFolderToCheck.DIRECTORY_SEPARATOR.'configuration.php';
-      if (file_exists($this->joomlaConfigFile)) { var_dump("rteedy") ;
-          return true; }
+      if (file_exists($this->joomlaConfigFile)) { return true; }
       else if (file_exists($defaultName)) { return true; }
       return false;
     }
