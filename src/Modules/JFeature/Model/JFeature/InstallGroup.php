@@ -68,6 +68,7 @@ class InstallGroup extends Base {
         $groupFileData = file_get_contents($this->groupFile) ;
         $groupArray = unserialize($groupFileData);
         $groupDBIDIfAlreadyExists = $this->model->getGroupIdFromUnique($groupArray["groupDetails"]["uniqueid"]);
+        echo "Installing group {$groupArray["groupDetails"]["uniqueid"]}...\n" ;
         $groupDBID = ($groupDBIDIfAlreadyExists != null ) ? $groupDBIDIfAlreadyExists : $this->model->setNewGroupID($groupArray["groupDetails"]["uniqueid"]) ;
         $this->model->setUpdateGroupDetail($groupDBID, 'group_name', $groupArray["groupDetails"]["group_name"]);
         $this->model->setUpdateGroupDetail($groupDBID, 'group_desc', $groupArray["groupDetails"]["group_desc"]);
@@ -88,9 +89,9 @@ class InstallGroup extends Base {
                 $outputLog[] = $pullGroup->silentPullGroup() ; */ }
             else if ($groupEntry["entry_type"]=="instance" ||
                      $groupEntry["entry_type"]=="allinprofile") {
-              $profile_id_only = substr($groupEntry["target"], 0, 16);
-                echo "Installing profile $profile_id_only...\n" ;
-              $this->installProfileOnly($profile_id_only); } }
+            $profile_id_only = substr($groupEntry["target"], 0, 16);
+            echo "Installing profile $profile_id_only...\n" ;
+            $this->installProfileOnly($profile_id_only); } }
     }
 
     private function installProfileOnly($uniqueid) {
