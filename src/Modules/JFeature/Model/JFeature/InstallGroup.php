@@ -40,8 +40,7 @@ class InstallGroup extends Base {
         foreach ($allFiles as $file) {
             $gstart = strlen($file)-6 ;
             if (substr($file, $gstart) == ".group") {
-                $this->allGroupFiles[] = $this->configs->give("metadata_store_folder").DS.$file ;
-                var_dump($this->allGroupFiles) ; } }
+                $this->allGroupFiles[] = $this->configs->give("metadata_store_folder").DS.$file ; } }
     }
 
     private function findGroupFile(){
@@ -68,7 +67,6 @@ class InstallGroup extends Base {
     private function receive() {
         $groupFileData = file_get_contents($this->groupFile) ;
         $groupArray = unserialize($groupFileData);
-        var_dump($groupArray);
         $groupDBIDIfAlreadyExists = $this->model->getGroupIdFromUnique($groupArray["groupDetails"]["uniqueid"]);
         $groupDBID = ($groupDBIDIfAlreadyExists != null ) ? $groupDBIDIfAlreadyExists : $this->model->setNewGroupID($groupArray["groupDetails"]["uniqueid"]) ;
         $this->model->setUpdateGroupDetail($groupDBID, 'group_name', $groupArray["groupDetails"]["group_name"]);
@@ -103,7 +101,7 @@ class InstallGroup extends Base {
         if ($profileExists) {
             $profileDetailsMemory = $this->model->getSingleProfileDetailsFromUnique($uniqueid) ; }
         else {
-            $profileDetailsMemory["id"] = $this->model->setNewProfileID($uniqueid); }
+            $profileDetailsMemory["id"] = $uniqueid ; }
         $this->model->setUpdateProfileDetail( $profileDetailsMemory["id"], 'profile_title', $profDetailsFromFile["profile_title"]);
         $this->model->setUpdateProfileDetail( $profileDetailsMemory["id"], 'profile_description', $profDetailsFromFile["profile_description"]);
 
