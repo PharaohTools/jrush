@@ -107,10 +107,10 @@ class PullGroup extends Base {
                       $profFeatUniqueTimes[] = substr($availableFeatureFile, 0, strlen($availableFeatureFile)-4); } }
               foreach ($profFeatUniqueTimes as $profFeatUniqueTime) {
                   $instVar ='--feature-file='.$this->configs->give("feature_store_folder").DS.$profFeatUniqueTime.'.zip';
-                  $installRay = array($instVar, '--config-file="'.$this->joomlaConfigFile.'"');
+                  $installRay = array($instVar, '--config-file='.$this->joomlaConfigFile);
                   $installFeature = new InstallFeature($installRay);
                   $installFeature->askWhetherToInstallFeature();
-                  $pullFeature = new PullFeature(array('--pull-unique-time='.$profFeatUniqueTime, '--config-file="'.$this->joomlaConfigFile.'"'));
+                  $pullFeature = new PullFeature(array('--pull-unique-time='.$profFeatUniqueTime, '--config-file='.$this->joomlaConfigFile));
                   $outputLog[] = $pullFeature->askWhetherToPullFeature() ; } } }
       return $outputLog;
     }
