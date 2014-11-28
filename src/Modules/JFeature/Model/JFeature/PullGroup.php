@@ -63,7 +63,6 @@ class PullGroup extends Base {
       $db->setQuery($query);
       $db->query();
       $result = $db->loadResult();
-        var_dump("r", $result, $group_unique) ;
       return $result;
     }
 
@@ -80,13 +79,12 @@ class PullGroup extends Base {
     private function performGroupPull() {
       $content = array() ;
       $content["groupid"] = $this->groupId ;
-        var_dump("gi", $content["groupid"]) ;
       $group = array();
       $group["groupDetails"] = $this->model->getSingleGroupDetails($content["groupid"]);
       $group["groupEntries"] = $this->model->getSingleGroupEntries($content["groupid"]);
       $content["group"] = $group;
       $outputLog = array();
-        var_dump($group["groupEntries"])   ;
+        var_dump("gd", $group["groupDetails"], "ge", $group["groupEntries"])   ;
       foreach ($group["groupEntries"] as $groupEntry) {
           if ($groupEntry["entry_type"]=="group") {
               $pullGroup = new PullGroup(array('--group-name="'.$groupEntry["target"].'"'));
