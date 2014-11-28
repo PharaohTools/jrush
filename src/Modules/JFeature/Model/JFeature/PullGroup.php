@@ -82,6 +82,7 @@ class PullGroup extends Base {
       $group["groupEntries"] = $this->model->getSingleGroupEntries($content["groupid"]);
       $content["group"] = $group;
       $outputLog = array();
+        var_dump($group["groupEntries"])   ;
       foreach ($group["groupEntries"] as $groupEntry) {
           if ($groupEntry["entry_type"]=="group") {
               $pullGroup = new PullGroup(array('--group-name="'.$groupEntry["target"].'"'));
