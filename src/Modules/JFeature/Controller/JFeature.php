@@ -29,9 +29,15 @@ class JFeature extends Base {
         $this->content["output-format"] = $jFeatureModel->outputFormat;
         return array ("type"=>"view", "view"=>"jFeatureFeaturePush", "pageVars"=>$this->content); }
 
-      if ($action=="group-install") {
+    if ($action=="group-install") {
         $jFeatureModel = new \Model\JFeature\InstallGroup($extraParams);
         $this->content["jFeatureGroupInstallResult"] = $jFeatureModel->askWhetherToInstallGroup();
+        $this->content["output-format"] = $jFeatureModel->outputFormat;
+        return array ("type"=>"view", "view"=>"jFeatureGroupInstall", "pageVars"=>$this->content); }
+
+    if ($action=="group-install-all") {
+        $jFeatureModel = new \Model\JFeature\InstallGroup($extraParams);
+        $this->content["jFeatureGroupInstallResult"] = $jFeatureModel->askWhetherToInstallAllGroups();
         $this->content["output-format"] = $jFeatureModel->outputFormat;
         return array ("type"=>"view", "view"=>"jFeatureGroupInstall", "pageVars"=>$this->content); }
 
