@@ -52,7 +52,7 @@ class PullGroup extends Base {
       else if ($this->groupName) {
         $this->groupId = $this->getGroupIdFromName($this->groupUnique);
         return; }
-      $question = 'Enter a Group ID from DB Table. To enter uninqueid use --group-unique parameter';
+      $question = 'Enter a Group ID (DB Table ID). To enter a uniqueid, use --group-unique parameter';
       $this->groupId = self::askForInput($question, true);
     }
 
