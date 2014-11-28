@@ -14,7 +14,7 @@ class JFeatureInfo extends Base {
 
     public function routesAvailable() {
       return array( "JFeature" =>  array_merge(parent::routesAvailable(), array("folder-defaults", "feature-install",
-        "feature-pull", "feature-push", "group-install", "group-pull", "group-push" ) ) );
+        "feature-pull", "feature-push", "group-install", "group-install-all", "group-pull", "group-push" ) ) );
     }
 
     public function routeAliases() {
@@ -60,6 +60,11 @@ class JFeatureInfo extends Base {
         - group-install
           Install the metadata for a database migration, fileset, or both from the GC Features component
           example jrush jfeature group-install --group-file="/var/www/website/XXXX.group" --config-file="/var/www/website/configuration.php"
+
+        - group-install-all
+          Install the metadata for a database migration, fileset, or both from the GC Features component. Will scan the configured metadata
+          Directory for group files, and install or update all found groups.
+          example jrush jfeature group-install-all --config-file="/var/www/website/configuration.php"
 
         - group-push
           perform a push of a group profile into a locally saved file.
