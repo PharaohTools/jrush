@@ -61,7 +61,7 @@ class PullGroup extends Base {
       $db->setQuery($query);
       $db->query();
       $result = $db->loadResult();
-        var_dump("r", $result) ;
+        var_dump("r", $result, $group_unique) ;
       return $result;
     }
 
