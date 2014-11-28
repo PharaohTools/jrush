@@ -8,8 +8,8 @@ class Base extends \Model\CoreBase {
     parent::__construct($params);
     $adminCompPath = dirname($this->joomlaConfigFile)."/administrator/components/com_gcworkflowdeploy";
     $compPath = dirname($this->joomlaConfigFile)."/components/com_gcworkflowdeploy";
-    define("JPATH_COMPONENT_ADMINISTRATOR", $adminCompPath ) ;
-    define("JPATH_COMPONENT", $compPath ) ;
+      if (!defined("JPATH_COMPONENT_ADMINISTRATOR")) { define("JPATH_COMPONENT_ADMINISTRATOR", $adminCompPath ) ; }
+      if (!defined("JPATH_COMPONENT")) { define("JPATH_COMPONENT", $compPath ) ; }
   }
 
 }
