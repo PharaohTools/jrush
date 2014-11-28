@@ -104,8 +104,8 @@ class InstallGroup extends Base {
         if ($profileExists) {
             $profileDetailsMemory = $this->model->getSingleProfileDetailsFromUnique($uniqueid) ; }
         else {
+            $this->model->setNewProfileId($uniqueid);
             $profileDetailsMemory["id"] = $uniqueid ; }
-        var_dump("pdm", $profileDetailsMemory , "pff", $profDetailsFromFile) ;
         $this->model->setUpdateProfileDetail( $profileDetailsMemory["id"], 'profile_title', $profDetailsFromFile["profile_title"]);
         $this->model->setUpdateProfileDetail( $profileDetailsMemory["id"], 'profile_description', $profDetailsFromFile["profile_description"]);
 
