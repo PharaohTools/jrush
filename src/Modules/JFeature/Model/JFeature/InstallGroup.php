@@ -89,7 +89,7 @@ class InstallGroup extends Base {
             else if ($groupEntry["entry_type"]=="instance" ||
                      $groupEntry["entry_type"]=="allinprofile") {
               $profile_id_only = substr($groupEntry["target"], 0, 16);
-                echo "Installing profile $profile_id_only\n" ;
+                echo "Installing profile $profile_id_only...\n" ;
               $this->installProfileOnly($profile_id_only); } }
     }
 
