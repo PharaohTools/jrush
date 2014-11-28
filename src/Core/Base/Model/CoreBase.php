@@ -8,6 +8,7 @@ class CoreBase {
     public $outputFormat ;
 
     public function __construct($params=null) {
+        $_SERVER['HTTP_HOST'] = "" ;
         $this->setBaseCmdLineParams($params);
     }
 
