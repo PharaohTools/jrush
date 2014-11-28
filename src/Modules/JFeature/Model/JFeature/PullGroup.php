@@ -38,7 +38,7 @@ class PullGroup extends Base {
           $this->groupName = substr($param, 13, strlen($param)); }
           if ( substr($param, 0, 17)=="--group-unique-id") {
               $this->groupUnique = substr($param, 18, strlen($param)); }
-          if ( substr($param, 0, 14)=="--group-unique") {
+          if ( substr($param, 0, 14)=="--group-unique" && substr($param, 0, 17)!="--group-unique-id") {
               $this->groupUnique = substr($param, 15, strlen($param)); } }
       return true;
     }
