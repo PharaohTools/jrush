@@ -18,7 +18,7 @@ class PullGroup extends Base {
         $this->configs = new \GCWorkflowDeployerConfigClass();
         $this->model = new \GCWorkflowDeployerModelClass();
         $this->uploadDir = $this->configs->give("temp_pull_folder");
-        if (substr($this->uploadDir, "-1", "1") != "/") { $this->uploadDir .= DS; }
+        if (substr($this->uploadDir, "-1", "1") != DS) { $this->uploadDir .= DS; }
     }
 
     public function askWhetherToPullGroup() {
@@ -36,8 +36,10 @@ class PullGroup extends Base {
           $this->groupId = substr($param, 11, strlen($param)); }
         if ( substr($param, 0, 12)=="--group-name") {
           $this->groupName = substr($param, 13, strlen($param)); }
-        if ( substr($param, 0, 14)=="--group-unique") {
-          $this->groupUnique = substr($param, 15, strlen($param)); } }
+          if ( substr($param, 0, 17)=="--group-unique-id") {
+              $this->groupUnique = substr($param, 18, strlen($param)); }
+          if ( substr($param, 0, 14)=="--group-unique") {
+              $this->groupUnique = substr($param, 15, strlen($param)); } }
       return true;
     }
 
