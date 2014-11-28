@@ -98,12 +98,14 @@ class InstallGroup extends Base {
         $profileFilePath = $this->configs->give("metadata_store_folder").DS.$uniqueid.".profile" ;
         $profString = file_get_contents($profileFilePath) ;
         $profDetailsFromFile = unserialize($profString);
+
         $profileExists = $this->model->checkProfileExists($uniqueid) ;
         $profileDetailsMemory = array();
         if ($profileExists) {
             $profileDetailsMemory = $this->model->getSingleProfileDetailsFromUnique($uniqueid) ; }
         else {
             $profileDetailsMemory["id"] = $uniqueid ; }
+        var_dump("pdm", $profileDetailsMemory , "pff", $profDetailsFromFile) ;
         $this->model->setUpdateProfileDetail( $profileDetailsMemory["id"], 'profile_title', $profDetailsFromFile["profile_title"]);
         $this->model->setUpdateProfileDetail( $profileDetailsMemory["id"], 'profile_description', $profDetailsFromFile["profile_description"]);
 
