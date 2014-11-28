@@ -58,9 +58,10 @@ class JConfigurationAllOS extends Base {
             else if (isset($this->params["config_{$configOptionKey}"]) && isset($this->params["guess"]) && $this->params["guess"] == true) {
                 $this->configOptions[$configOptionKey] = $this->platformVars->configOptions[$configOptionKey] ;
                 continue ; }
-            $doChange = $this->askYesOrNo("Set non-default value for $configOptionKey? Default is $configOptionValue");
-            if ($doChange) {
-                $this->configOptions[$configOptionKey] = $this->askForInput("What value for $configOptionKey?"); } }
+            if (!isset($this->params["guess"]) || $this->params["guess"]==false) {
+                $doChange = $this->askYesOrNo("Set non-default value for $configOptionKey? Default is $configOptionValue");
+                if ($doChange) {
+                    $this->configOptions[$configOptionKey] = $this->askForInput("What value for $configOptionKey?"); } } }
     }
 
     protected function askForPlatform(){
