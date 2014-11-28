@@ -6,6 +6,7 @@ class InstallGroup extends Base {
 
     private static $configs ;
     private $groupFile;
+    private $allGroupFiles ;
     private $model ;
     private $uploadDir ;
 
@@ -26,10 +27,26 @@ class InstallGroup extends Base {
         return $this->performGroupInstall();
     }
 
+    public function askWhetherToInstallAllGroups() {
+        $this->findAllGroupFiles();
+        foreach ($this->allGroupFiles as $groupFile) {
+            $this->groupFile = $groupFile ;
+            $this->performGroupInstall() ; }
+        return true ;
+    }
+
+    private function findAllGroupFiles(){
+        $allFiles = scandir($this->configs->give("metadata_store_folder")) ;
+        foreach ($allFiles as $file) {
+            $gstart = strlen($file)-6 ;
+            if (substr($file, $gstart) == ".group") {
+                $this->allGroupFiles[] = $this->configs->give("metadata_store_folder").DS.$file ; } }
+    }
+
     private function findGroupFile(){
-      if ($this->groupFile) { return; }
-      $question = 'Enter Location of Group file to install';
-      $this->groupFile = self::askForInput($question, true);
+        if ($this->groupFile) { return; }
+        $question = 'Enter Location of Group file to install';
+        $this->groupFile = self::askForInput($question, true);
     }
 
     private function performGroupInstall() {
@@ -66,6 +83,7 @@ class InstallGroup extends Base {
         foreach ($groupEntries as $groupEntry) {
             if ($groupEntry["entry_type"]=="group") {
               /*
+               * // @todo
                 $pullGroup = new PullGroup(array('--group-name="'.$groupEntry["target"].'"'));
                 $outputLog[] = $pullGroup->silentPullGroup() ; */ }
             else if ($groupEntry["entry_type"]=="instance" ||
