@@ -82,7 +82,8 @@ class PullGroup extends Base {
       $group = array();
       $group["groupDetails"] = $this->model->getSingleGroupDetails($content["groupid"]);
       $group["groupEntries"] = $this->model->getSingleGroupEntries($content["groupid"]);
-      $content["group"] = $group;
+        $group["groupEntries"] = $this->aasort($group["groupEntries"], "ordering");
+        $content["group"] = $group;
       $outputLog = array();
       foreach ($group["groupEntries"] as $groupEntry) {
           if ($groupEntry["entry_type"]=="group") {
@@ -113,5 +114,22 @@ class PullGroup extends Base {
                   $outputLog[] = $pullFeature->askWhetherToPullFeature() ; } } }
       return $outputLog;
     }
+
+    /*
+     * Helpers
+     */
+    private function aasort (&$array, $key) {
+        $sorter=array();
+        $ret=array();
+        reset($array);
+        foreach ($array as $ii => $va) {
+            $sorter[$ii]=$va[$key]; }
+        asort($sorter);
+        foreach ($sorter as $ii => $va) {
+            $ret[$ii]=$array[$ii]; }
+        $array=$ret;
+        return $array;
+    }
+
 
 }
