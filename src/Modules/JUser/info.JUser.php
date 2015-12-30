@@ -47,6 +47,10 @@ class JUserInfo extends Base {
         Display the details of a user
         example: jrush juser info
 
+        - list
+        List all site users
+        example: jrush juser list
+
         - change the password of a user
         Change a users password
         example: jrush juser password
