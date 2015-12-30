@@ -17,7 +17,8 @@ class Listing extends Base {
     public function askWhetherToGetUserList() {
 //        $this->findUserId();
         $ray = array() ;
-        return $ray["users"] = $this->getUserListing();
+        $ray["users"] = $this->getUserListing();
+        return $ray ;
     }
 
     private function getUserListing() {
