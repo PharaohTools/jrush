@@ -14,7 +14,7 @@ class Listing extends Base {
         $this->attemptBootstrap($params, "JUser Listing");
     }
 
-    public function askWhetherToGetUserInfo() {
+    public function askWhetherToGetUserList() {
 //        $this->findUserId();
         $ray = array() ;
         return $ray["users"] = $this->getUserListing();
