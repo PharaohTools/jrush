@@ -21,7 +21,7 @@ class Listing extends Base {
     }
 
     private function getUserListing() {
-        $db =& JFactory::getDBO();
+        $db = \JFactory::getDBO();
         $query = "SELECT * FROM #__users" ;
         $db->setQuery($query);
         $rows = $db->loadObjectList();
