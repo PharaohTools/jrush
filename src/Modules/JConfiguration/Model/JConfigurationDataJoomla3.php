@@ -32,7 +32,7 @@ class JConfigurationDataJoomla3 extends Base {
         if (strlen($prefix) > 0) {
             $this->settingsFileLocation = $prefix; }
         else {
-            $this->settingsFileName = 'src/configuration.php'; }
+            $this->settingsFileName = 'src'.DS.'configuration.php'; }
     }
 
     public function getProperty($property) {
@@ -138,7 +138,9 @@ class JConfigurationDataJoomla3 extends Base {
     }
 
     private function getJRoot(){
-        return dirname($this->params["config-file"]) ;
+        if (isset($this->params["config-file"])) {
+            return dirname($this->params["config-file"]) ; }
+        return null ;
     }
 
 }

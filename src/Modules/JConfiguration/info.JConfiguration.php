@@ -26,8 +26,7 @@ class JConfigurationInfo extends Base {
 
     public function helpDefinition() {
         $extraHelp = $this->getExtraHelpDefinitions() ;
-        $help = <<<"HELPDATA"
-  This command is part of Default Modules and handles Databasing Functions.
+        $help = 'This command is part of Default Modules and handles Databasing Functions.
 
   JConfiguration, jconfigure, jconfiguration, jconf
 
@@ -41,8 +40,7 @@ class JConfigurationInfo extends Base {
       example: dapperstrano jconf reset drupal
       example: dapperstrano jconf reset --yes --platform=joomla30
 
-      $extraHelp
-HELPDATA;
+      '.$extraHelp;
       return $help ;
     }
 
