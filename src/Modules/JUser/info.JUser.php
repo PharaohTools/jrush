@@ -13,7 +13,7 @@ class JUserInfo extends Base {
     }
 
     public function routesAvailable() {
-      return array( "JUser" =>  array_merge(parent::routesAvailable(), array("info", "user", "delete", "password") ) );
+      return array( "JUser" =>  array_merge(parent::routesAvailable(), array("info", "list", "user", "delete", "password") ) );
     }
 
     public function routeAliases() {
