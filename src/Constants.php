@@ -4,7 +4,7 @@
  * Pharaoh Tools Constants
  */
 
-define('PHARAOH_APP', "ptconfigure") ;
+define('PHARAOH_APP', "jrush") ;
 
 if (in_array(PHP_OS, array("Windows", "WINNT"))) {
     $sd = getenv('SystemDrive') ;
