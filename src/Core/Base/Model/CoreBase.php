@@ -13,8 +13,11 @@ class CoreBase {
     }
 
     protected function attemptBootstrap($params, $caller){
-      $this->bootStrapJoomla($params);
-      if (!defined( '_JEXEC' )) { echo "$caller requires JRush to bootstrap.\n" ; }
+        $this->bootStrapJoomla($params);
+        if (!defined( '_JEXEC' )) {
+            echo "$caller requires JRush to bootstrap.\n" ;
+            return false ; }
+        return true ;
     }
 
     protected function bootStrapJoomla($params) {
