@@ -77,7 +77,7 @@ class JConfigurationAllOS extends Base {
     }
 
     protected function askForDBConfigReset(){
-        $question = 'Do you want to reset a database configuration?';
+        $question = 'Do you want to reset a Joomla configuration?';
         return (isset($this->params["yes"])) ? true : self::askYesOrNo($question);
     }
 
