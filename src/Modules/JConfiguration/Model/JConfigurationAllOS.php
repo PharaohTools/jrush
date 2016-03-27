@@ -82,7 +82,7 @@ class JConfigurationAllOS extends Base {
     }
 
     protected function loadCurrentSettingsFile() {
-        $this->settingsFileData = file($this->params["config-file"]);
+        $this->settingsFileData = file($this->joomlaConfigFile);
     }
 
     protected function settingsFileDataChange(){
@@ -111,13 +111,13 @@ class JConfigurationAllOS extends Base {
     }
 
     protected function createSettingsFile() {
-        echo "Moving new settings file ".$this->params["config-file"]." in...\n" ;
-        return file_put_contents($this->params["config-file"], $this->settingsFileData);
+        echo "Moving new settings file ".$this->joomlaConfigFile." in...\n" ;
+        return file_put_contents($this->joomlaConfigFile, $this->settingsFileData);
     }
 
     protected function removeOldSettingsFile(){
-        $command    = 'rm -f '.$this->params["config-file"] ;
-        self::executeAndOutput($command, "Removing old settings file ".$this->params["config-file"]."...\n");
+        $command    = 'rm -f '.$this->joomlaConfigFile ;
+        self::executeAndOutput($command, "Removing old settings file ".$this->joomlaConfigFile."...\n");
     }
 
 }
