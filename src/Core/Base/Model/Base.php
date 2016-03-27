@@ -2,7 +2,7 @@
 
 Namespace Model;
 
-class Base {
+class Base extends CoreBase {
 
     public $params ;
 
@@ -31,6 +31,7 @@ class Base {
     protected $baseTempDir ;
 
     public function __construct($params) {
+        parent::__construct($params) ;
         $this->tempDir =  DIRECTORY_SEPARATOR.'tmp';
         $this->baseTempDir =  $this->tempDir ;
         $this->autopilotDefiner = $this->getModuleName() ;
