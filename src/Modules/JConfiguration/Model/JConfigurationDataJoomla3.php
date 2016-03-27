@@ -138,8 +138,8 @@ class JConfigurationDataJoomla3 extends Base {
     }
 
     private function getJRoot(){
-        if (isset($this->params["config-file"])) {
-            return dirname($this->params["config-file"]) ; }
+        if (isset($this->joomlaConfigFile)) {
+            return dirname($this->joomlaConfigFile) ; }
         return null ;
     }
 
