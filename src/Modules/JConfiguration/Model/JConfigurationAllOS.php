@@ -21,7 +21,6 @@ class JConfigurationAllOS extends Base {
 
     public function __construct($params) {
         parent::__construct($params);
-        $this->attemptBootstrap($params, "Joomla Configuration");
     }
 
     public function askWhetherToConfigureDB(){
@@ -31,6 +30,7 @@ class JConfigurationAllOS extends Base {
     protected function performDBConfiguration(){
         if ( !$this->askForDBConfig() ) { return false; }
         // @todo $this->tryToDetectPlatform() ; try to autodetect the platform from the proj file before asking for it
+        if (!$this->attemptBootstrap($this->params, "Joomla Configuration")) { return false; }
         $this->setPlatformVars();
         $this->setConfigOptions();
         $this->loadCurrentSettingsFile();
