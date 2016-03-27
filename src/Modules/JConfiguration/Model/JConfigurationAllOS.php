@@ -21,7 +21,7 @@ class JConfigurationAllOS extends Base {
 
     public function __construct($params) {
         parent::__construct($params);
-        $this->attemptBootstrap($params, "Cache Clear");
+        $this->attemptBootstrap($params, "Joomla Configuration");
     }
 
     public function askWhetherToConfigureDB(){
