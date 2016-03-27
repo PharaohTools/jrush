@@ -18,6 +18,7 @@ class CoreBase {
     }
 
     protected function bootStrapJoomla($params) {
+        $jConfig = $this->loadJConfig();
         if ($this->joomlaConfigFile==null) {
             echo "No params for Joomla config found when bootstrapping. Is --config-file param correct?\n"; }
         else {
@@ -147,7 +148,9 @@ class CoreBase {
       $defaultFolderToCheck = getcwd();
       $defaultName = $defaultFolderToCheck.DIRECTORY_SEPARATOR.'configuration.php';
       if (file_exists($this->joomlaConfigFile)) { return true; }
-      else if (file_exists($defaultName)) { return true; }
+      else if (file_exists($defaultName)) {
+          $this->joomlaConfigFile = $defaultName ;
+          return true; }
       return false;
     }
 
