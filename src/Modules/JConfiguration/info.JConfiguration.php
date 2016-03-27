@@ -26,19 +26,19 @@ class JConfigurationInfo extends Base {
 
     public function helpDefinition() {
         $extraHelp = $this->getExtraHelpDefinitions() ;
-        $help = 'This command is part of Default Modules and handles Databasing Functions.
+        $help = 'This command is part of Default Modules and handles your Joomla Configuration file settings.
 
   JConfiguration, jconfigure, jconfiguration, jconf
 
       - configure, conf
-      set up db user & pw for a project, use admins to create new resources as needed.
-      example: dapperstrano jconf conf joomla
-      example: dapperstrano jconf conf --yes --platform=joomla30 --mysql-host=127.0.0.1 --mysql-admin-user=""
+      Change any value of your Joomla configuration file
+      example: '.PHARAOH_APP.' jconf conf joomla
+      example: '.PHARAOH_APP.' jconf conf --yes --platform=joomla30 --mysql-host=127.0.0.1 --mysql-admin-user=""
 
       - reset
-      reset current db to generic values so dapperstrano can write them. may need to be run before db conf.
-      example: dapperstrano jconf reset drupal
-      example: dapperstrano jconf reset --yes --platform=joomla30
+      reset current db to generic values so '.PHARAOH_APP.' can write them. may need to be run before db conf.
+      example: '.PHARAOH_APP.' jconf reset drupal
+      example: '.PHARAOH_APP.' jconf reset --yes --platform=joomla30
 
       '.$extraHelp;
       return $help ;
