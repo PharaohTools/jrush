@@ -18,7 +18,7 @@ class CoreBase {
     }
 
     protected function bootStrapJoomla($params) {
-        $jConfig = $this->loadJConfig();
+        $this->loadJConfig();
         if ($this->joomlaConfigFile==null) {
             echo "No params for Joomla config found when bootstrapping. Is --config-file param correct?\n"; }
         else {
