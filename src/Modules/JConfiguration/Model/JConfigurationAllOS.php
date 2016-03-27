@@ -111,7 +111,8 @@ class JConfigurationAllOS extends Base {
     }
 
     protected function checkSettingsFileOkay(){
-        $question = 'Please check '.$this->platformVars->getProperty("friendlyName").' Settings file: '.$this->settingsFileData."\n\nIs this Okay?";
+        echo 'Please check '.$this->platformVars->getProperty("friendlyName").' Settings file: '.$this->settingsFileData."\n";
+        $question = "Is this Okay?";
         return (isset($this->params["yes"])) ? true : self::askYesOrNo($question);
     }
 
