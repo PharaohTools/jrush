@@ -138,6 +138,7 @@ class JConfigurationDataJoomla3 extends Base {
     }
 
     private function getJRoot(){
+        $this->attemptBootstrap($this->params, "Joomla 3 Configuration Data Set") ;
         if (isset($this->joomlaConfigFile)) {
             return dirname($this->joomlaConfigFile) ; }
         return null ;
