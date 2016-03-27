@@ -19,6 +19,11 @@ class JConfigurationAllOS extends Base {
     protected $settingsFileData;
     protected $configOptions ;
 
+    public function __construct($params) {
+        parent::__construct($params);
+        $this->attemptBootstrap($params, "Cache Clear");
+    }
+
     public function askWhetherToConfigureDB(){
         return $this->performDBConfiguration();
     }
@@ -101,7 +106,7 @@ class JConfigurationAllOS extends Base {
         if ( !($pos === false) ) {
             $spaces = "" ;
             for ($i = 0; $i < 8; $i++) { $spaces .= " " ; }
-            $lineInNewfile = $spaces.$var.' = '.'\''.$configOptionValue.'\''.";                                                                                  \n" ; }
+            $lineInNewfile = $spaces.$var.' = '.'\''.$configOptionValue.'\''.";\n" ; }
         return $lineInNewfile ;
     }
 
