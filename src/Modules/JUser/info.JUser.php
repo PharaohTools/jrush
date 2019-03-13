@@ -46,6 +46,10 @@ class JUserInfo extends Base {
         - info
         Display the details of a user
         example: jrush juser info
+        example: jrush juser info --user-id="{uid}"
+        example: jrush juser info --user-email="{email address}"
+        example: jrush juser info --username="{username}"
+        example: jrush juser info --user-name="{username}"
 
         - list
         List all site users
@@ -54,6 +58,10 @@ class JUserInfo extends Base {
         - change the password of a user
         Change a users password
         example: jrush juser password
+        example: jrush juser password --user-id="{uid}" --password="{password}"
+        example: jrush juser password --user-email="{email address}" --password="{password}"
+        example: jrush juser password --username="{username}" --password="{password}"
+        example: jrush juser password --user-name="{username}" --password="{password}"
 
 HELPDATA;
       return $help ;
