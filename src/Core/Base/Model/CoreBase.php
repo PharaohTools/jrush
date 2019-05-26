@@ -84,4 +84,18 @@ class CoreBase {
               $this->outputFormat = substr($param, 16, strlen($param)-1); } } }
     }
 
+    protected function askForInput($question, $required=null) {
+        $fp = fopen('php://stdin', 'r');
+        $last_line = false;
+        while (!$last_line) {
+            print "$question\n";
+            $inputLine = fgets($fp, 1024);
+            if ($required && strlen($inputLine)==0 ) {
+                print "You must enter a value. Please try again.\n"; }
+            else {$last_line = true;} }
+        $inputLine = $this->stripNewLines($inputLine);
+        return $inputLine;
+    }
+
+
 }
